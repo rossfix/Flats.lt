@@ -78,7 +78,7 @@ text-decoration: none;
 margin-bottom: 0.5rem;
 font-size: 14px;
 border-style: solid;
-border-width: 1px;
+border-width: 0px;
 padding: 0px 8px;
 border-radius: 10px;
 background-color: #fdf2ed;
@@ -121,4 +121,19 @@ export const SocialMediaWrap = styled.div`
 export const WebsiteRights = styled.small`
   color: #fff;
   margin-bottom: 16px;
+`;
+
+export const LanguageWrap = styled.div`
+display: flex;
+align-items: baseline;
+margin-bottom: -16px;
+`;
+
+export const LanguageSite = styled.a`
+margin: 2px;
+color: #fff;
+`;
+
+export const LanguageSeparator = styled.div`
+color: #fff;
 `;

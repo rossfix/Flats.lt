@@ -13,21 +13,21 @@ import {
   WebsiteRights,
   FooterPar,
   FooterParLeft,
-  FooterBtnDinamic
+  FooterBtnDinamic,
+  LanguageWrap,
+  LanguageSite,
+  LanguageSeparator
 } from "./FooterElements";
 
 const Footer = () => {
-  const user = JSON.parse(localStorage.getItem("user"));
+ 
   let navigate = useNavigate();
 
   const routeChange = () => {
-    if (user === null) {
+   
       let path = "/prisijungti";
       navigate(path);
-    } else {
-      let path = "/savitarna";
-      navigate(path);
-    }
+ 
   };
 
 
@@ -50,6 +50,7 @@ const Footer = () => {
             </FooterParLeft>
 
             <FooterLink to="/straipsniai">Straipsniai</FooterLink>
+           
           </FooterLinkItems>
 
           <FooterLinkItems>
@@ -64,7 +65,14 @@ const Footer = () => {
       </FooterColumnsContainer>
       <SocialMedia>
         <SocialMediaWrap>
+          <LanguageWrap>
+        <WebsiteRights>Kalba: </WebsiteRights>
+        <LanguageSite href="https://flats.lt">Lietuvių</LanguageSite>
+        <LanguageSeparator> | </LanguageSeparator>
+        <LanguageSite href="https://en.flats.lt/">Anglų</LanguageSite>
+        </LanguageWrap>
           <WebsiteRights>© Flats.lt {new Date().getFullYear()}</WebsiteRights>
+          
         </SocialMediaWrap>
       </SocialMedia>
     </FooterContainer>

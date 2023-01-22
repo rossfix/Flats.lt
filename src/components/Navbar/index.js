@@ -17,17 +17,14 @@ import {
 } from "./NavbarElements";
 
 const Navbar = ({ toggle }) => {
-  const user = JSON.parse(localStorage.getItem("user"));
+ 
   let navigate = useNavigate();
 
   const routeChange = () => {
-    if (user === null) {
+   
       let path = "/prisijungti";
       navigate(path);
-    } else {
-      let path = "/savitarna";
-      navigate(path);
-    }
+ 
   };
 
   const [scrollNav, setScrollNav] = useState(false);
