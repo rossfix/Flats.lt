@@ -7,7 +7,6 @@ Disallow: /index.php/
 Disallow: /pramogos-vilniuje/
 Disallow: /tag/
 Disallow: /kontaktai/
-Disallow: /prisijungti/
 Disallow: /savitarna/
 Disallow: /savitarna/*/
 Disallow: /sekmingai-issiusta
