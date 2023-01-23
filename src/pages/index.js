@@ -22,10 +22,10 @@ const Home = () => {
   return (
     <>
     <Helmet>
-        <title>Nekilnojamo turto nuomos administravimas - Flats.lt</title>
+        <title>Nekilnojamo turto nuomos administravimas</title>
         <meta
           name="description"
-          content="Visos nekilnojamo turto nuomos administravimo paslaugos vienoje vietoje. Administruojame visą nuomos paslaugų ciklą: nuo paieškos iki sutarties pabaigos."
+          content="Nekilnojamo turto nuomos administravimas ir visos NT valdymo paslaugos vienoje vietoje. Administruojame visą nuomos paslaugų ciklą: nuo paieškos iki sutarties pabaigos."
           data-react-helmet="true"
        />
     

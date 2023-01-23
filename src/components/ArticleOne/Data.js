@@ -235,36 +235,36 @@ export const articleSix = {
 export const articleSeven = {
   id: 7,
   url: "/straipsniai/nekilnojamo-turto-administravimas",
-  seotitle: "Nekilnojamo turto administravimas",
+  seotitle: "NT administravimas",
   seocontent:
-    "Šiame straipsnyje atsakysime kas yra nekilnojamo turto administravimas. Jeigu kils papildomu klausimų lauksime Jūsų užklausos.",
-  headerone: "Nekilnojamo turto administravimas - kas tai?",
+    "Šiame straipsnyje atsakysime kas yra NT administravimas. Jeigu kils papildomu klausimų lauksime Jūsų užklausos.",
+  headerone: "NT administravimas - kas tai?",
 
-  header: "Nekilnojamo turto administravimas: kodėl tai svarbu?",
+  header: "NT administravimas: kodėl tai svarbu?",
   firstpar:
-    "Nekilnojamo turto nuomos valdymas yra procesas, kurio metu stebima ir valdoma nuomojamų nekilnojamųjų turtų kasdieninė veikla. Tai apima užduotis, tokias kaip potencialių nuomininkų paieška ir patikrinimas, nuomos mokėjimų surinkimas, priežiūros ir remonto darbų atlikimas bei teisinių reikalavimų laikymasis. Nuomos valdymo tikslas yra užtikrinti, kad turtas būtų gerai prižiūrimas, kad nuomininkai būtų patenkinti ir kad turtas generuotų nuosavo turėtojui stabilų pajamų šaltinį.",
-  scndheader: "Nekilnojamo turto administratorių teikiamos paslaugos",
+    "NT nuomos valdymas yra procesas, kurio metu stebima ir valdoma nuomojamų nekilnojamųjų turtų kasdieninė veikla. Tai apima užduotis, tokias kaip potencialių nuomininkų paieška ir patikrinimas, nuomos mokėjimų surinkimas, priežiūros ir remonto darbų atlikimas bei teisinių reikalavimų laikymasis. Nuomos valdymo tikslas yra užtikrinti, kad turtas būtų gerai prižiūrimas, kad nuomininkai būtų patenkinti ir kad turtas generuotų nuosavo turėtojui stabilų pajamų šaltinį.",
+  scndheader: "NT administratorių teikiamos paslaugos",
   scndpar:
     "Nuomos administratorius gali teikti platų paslaugų spektrą nuomininkams ir nekilnojamojo turto savininkams. Šios paslaugos gali apimti nekilnojamojo turto skelbimą ir rinkodarą, kad rastų naujus nuomininkus, potencialių nuomininkų tikrinimą ir kredito patikrinimą, nuomos sutarčių ir kitų teisinių dokumentų tvarkymą bei nuomos surinkimą nuomininko vardu. Be to, nuomos valdytojas atsakingas už priežiūros ir remonto darbų tvarkaraščio sudarymą ir stebėjimą, bei sprendžia bet kokius nuomininkų skundus ar problemas, kurios gali kilti.",
   trdheader: "NT administratorių paslaugų privalumai ir trūkumai",
   trdpar:
     "Nuomos valdytojo įdarbinimas gali būti puikus būdas nuomininkams ir nekilnojamojo turto savininkams sutaupyti laiko ir sumažinti savo turtų valdymo stresą. Tačiau svarbu atsiminti, kad yra tiek privalumų, tiek ir trūkumų šio sprendimo atžvilgiu. Viena vertus, nuomos valdytojas gali padėti užtikrinti, kad turtas būtų gerai prižiūrimas, kad nuomininkai būtų patenkinti ir kad turtas generuotų stabilų pajamų šaltinį, bei suteiktų daugiau laisvo laiko. Kita vertus, nuomotojai turi mokėti nuomos valdytojui mokestį, kuris gali sumažinti pelną.",
-  frthheader: "Ar nekilnojamo turto administratorius tau?",
+  frthheader: "Ar NT administratorius tau?",
   frthpar:
     "Nekilnojamo turto nuomos valdymas yra sudėtingas ir iššūkių keliantis uždavinys, kuris reikalauja plataus įgūdžių ir žinių spektro. Suprantant nuomos valdymo pagrindus, nuomininkai ir nekilnojamojo turto savininkai gali daryti pagrįstus sprendimus. Tačiau nepatyrusiems arba laiko stokojantiems NT savininkams tai gali būti puiki alternatyva. Tad nuspręsti turite patys pagal savo prioritetus, o teisingai valdomas nekilnojamo turto nuomos objektais gali būti stabilus ir pelningas pajamų šaltinis ilgus metus.",
 
   hero:
     "https://firebasestorage.googleapis.com/v0/b/flats-af6d2.appspot.com/o/articles%2Fnekilnojamo-turto-administravimas%2Fnebrangus-nekilnojamo-turto-administravimas.jpg?alt=media&token=6dcb2730-4e17-4c48-9d46-983a68d99b29",
   heroalt:
-    "Nekilnojamo turto administravimas Lietuvoje: patarimai, kaip efektyviai valdyti savo turtą",
+    "NT administravimas Lietuvoje: patarimai, kaip efektyviai valdyti savo turtą",
   firstimg:
     "https://firebasestorage.googleapis.com/v0/b/flats-af6d2.appspot.com/o/articles%2Fnekilnojamo-turto-administravimas%2Fnekilnojamo-turto-administravimas-lietuvoje.jpg?alt=media&token=3e3f6abe-9b3e-4ecf-8b61-70e4dd6cf94b",
   firstalt:
-    "Nekilnojamasis turtas Lietuvoje: patarimai, kaip pasirinkti geriausią administravimo paslaugą",
+    "NT Lietuvoje: patarimai, kaip pasirinkti geriausią administravimo paslaugą",
   scndimg:
     "https://firebasestorage.googleapis.com/v0/b/flats-af6d2.appspot.com/o/articles%2Fnekilnojamo-turto-administravimas%2Fnekilnojamo-turto-administravimas-vilniuje.jpg?alt=media&token=d39760cb-bebb-4051-822a-f95ec712fbe7",
   scndalt:
-    "Nekilnojamo turto administravimas Lietuvoje: patarimai, kaip apsaugoti savo turtą ir užtikrinti jo efektyvų valdymą",
+    "NT administravimas Lietuvoje: patarimai, kaip apsaugoti savo turtą ir užtikrinti jo efektyvų valdymą",
   trdimg:
     "https://firebasestorage.googleapis.com/v0/b/flats-af6d2.appspot.com/o/articles%2Fnekilnojamo-turto-administravimas%2Fpigus-nekilnojamo-turto-administravimas.jpg?alt=media&token=9e5073ae-0bde-459f-94be-d8aad12e1bb8",
   trdalt:
