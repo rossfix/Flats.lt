@@ -44,7 +44,7 @@ const Footer = () => {
               Flats.lt
             </FooterLinkTitle>
             <FooterParLeft>
-              Flats.lt sprendžia visus jums rūpimus NT nuomos administravimo
+              Flats.lt sprendžia visus jums rūpimus nekilnojamo turto nuomos administravimo
               klausimus. Susisiekite su mumis del savo problemos ir mes ją
               išspręsime!
             </FooterParLeft>
