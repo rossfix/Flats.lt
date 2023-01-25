@@ -67,7 +67,7 @@ const Footer = () => {
         <SocialMediaWrap>
           <LanguageWrap>
         <WebsiteRights>Kalba: </WebsiteRights>
-        <LanguageSite href="https://flats.lt">Lietuvių</LanguageSite>
+        <LanguageSite href="https://flats.lt/">Lietuvių</LanguageSite>
         <LanguageSeparator> | </LanguageSeparator>
         <LanguageSite href="https://en.flats.lt/">Anglų</LanguageSite>
         </LanguageWrap>
