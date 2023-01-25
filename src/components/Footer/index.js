@@ -16,20 +16,16 @@ import {
   FooterBtnDinamic,
   LanguageWrap,
   LanguageSite,
-  LanguageSeparator
+  LanguageSeparator,
 } from "./FooterElements";
 
 const Footer = () => {
- 
   let navigate = useNavigate();
 
   const routeChange = () => {
-   
-      let path = "/prisijungti";
-      navigate(path);
- 
+    let path = "/prisijungti";
+    navigate(path);
   };
-
 
   const toggleHome = () => {
     scroll.scrollToTop();
@@ -41,16 +37,15 @@ const Footer = () => {
         <FooterLinksContainer>
           <FooterLinkItems>
             <FooterLinkTitle to="/" onClick={toggleHome}>
-              Flats.lt
+              Nuomos administravimas
             </FooterLinkTitle>
             <FooterParLeft>
-              Flats.lt sprendžia visus jums rūpimus nekilnojamo turto nuomos administravimo
-              klausimus. Susisiekite su mumis del savo problemos ir mes ją
-              išspręsime!
+              Flats.lt sprendžia visus jums rūpimus nekilnojamo turto nuomos
+              administravimo klausimus. Susisiekite su mumis del savo problemos
+              ir mes ją išspręsime!
             </FooterParLeft>
 
             <FooterLink to="/straipsniai">Straipsniai</FooterLink>
-           
           </FooterLinkItems>
 
           <FooterLinkItems>
@@ -58,21 +53,21 @@ const Footer = () => {
             <FooterPar>El. paštas: flats.lithuania@gmail.com</FooterPar>
             <FooterLink to="/kontaktu-forma">Susisiekti</FooterLink>
             <FooterLinkTitle>Savitarna</FooterLinkTitle>
-           <FooterBtnDinamic onClick={routeChange}>Prisijungti</FooterBtnDinamic>
-           
+            <FooterBtnDinamic onClick={routeChange}>
+              Prisijungti
+            </FooterBtnDinamic>
           </FooterLinkItems>
         </FooterLinksContainer>
       </FooterColumnsContainer>
       <SocialMedia>
         <SocialMediaWrap>
           <LanguageWrap>
-        <WebsiteRights>Kalba: </WebsiteRights>
-        <LanguageSite href="https://flats.lt/">Lietuvių</LanguageSite>
-        <LanguageSeparator> | </LanguageSeparator>
-        <LanguageSite href="https://en.flats.lt/">Anglų</LanguageSite>
-        </LanguageWrap>
+            <WebsiteRights>Kalba: </WebsiteRights>
+            <LanguageSite href="https://flats.lt/">Lietuvių</LanguageSite>
+            <LanguageSeparator> | </LanguageSeparator>
+            <LanguageSite href="https://en.flats.lt/">Anglų</LanguageSite>
+          </LanguageWrap>
           <WebsiteRights>© Flats.lt {new Date().getFullYear()}</WebsiteRights>
-          
         </SocialMediaWrap>
       </SocialMedia>
     </FooterContainer>
