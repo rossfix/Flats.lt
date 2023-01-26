@@ -19,8 +19,7 @@ export const articleOne = {
   frthpar:
     "Nors nuomojant nekilnojamąjį turtą gali būti pelninga, tačiau svarbu stengtis padidinti nuomos pelną, kad būtų užtikrinta aukštesnė grąža. Vienas iš būdų yra didinti nuomos kainą, tačiau tai gali neigiamai paveikti nuomos pasiūlą. Siūlytume padidinti nuomos laikotarpį ir užtikrinti, kad nuomininkai mokėtų laiku ir visą nuomos sumą. Taip pat rekomenduojame investuoti į nekilnojamojo turto renovacijas ir modernizacijas, kad padidinti nuomos pasiūlą ir kainas. Linkime, kad šie patarimai garantuotu Jums pelningą NT nuomos verslą.",
 
-  hero:
-    "https://firebasestorage.googleapis.com/v0/b/flats-af6d2.appspot.com/o/articles%2Fnt-nuomos-patarimai-lietuvoje%2FNT_nuomos_patarimai.jpg?alt=media&token=9534af6a-f786-4216-af59-7b6fe6332ff6",
+  hero: "https://firebasestorage.googleapis.com/v0/b/flats-af6d2.appspot.com/o/articles%2Fnt-nuomos-patarimai-lietuvoje%2FNT_nuomos_patarimai.jpg?alt=media&token=9534af6a-f786-4216-af59-7b6fe6332ff6",
   heroalt:
     "NT nuomos patarimai Lietuvoje: kaip efektyviai nuomoti savo nekilnojamąjį turtą?",
   firstimg:
@@ -34,7 +33,7 @@ export const articleOne = {
   trdimg:
     "https://firebasestorage.googleapis.com/v0/b/flats-af6d2.appspot.com/o/articles%2Fnt-nuomos-patarimai-lietuvoje%2Fnt_nuomos_patarimai_vilniuje.jpg?alt=media&token=1d18ae80-b2f4-4d7e-852e-b790c4a9890c",
   trdalt:
-    "Kaip padidinti savo nekilnojamojo turto nuomos pasiūlymų skaičių Lietuvoje? NT nuomos patarimai!"
+    "Kaip padidinti savo nekilnojamojo turto nuomos pasiūlymų skaičių Lietuvoje? NT nuomos patarimai!",
 };
 
 export const articleTwo = {
@@ -58,8 +57,7 @@ export const articleTwo = {
   frthpar:
     "Renkantis mokesčių mokėjimo būdą buto nuomai Lietuvoje, svarbu konsultuotis su mokesčių specialistais. Be to, rekomenduojame sekti pokyčius mokesčių įstatymuose ir nuostatose, susijusiose su nuomojamu būstu, nes tai gali turėti įtakos jūsų mokesčių pareigoms ir įsipareigojimams. Taip pat svarbu laikytis visų reikalavimų ir taisyklių tvarkant dokumentus ir mokesčių deklaravimą, kad užtikrintumėte, kad viskas yra tvarkinga ir mokesčiai yra teisingai deklaruojami. Dėl profesionalios konsultacijos ir patarimų, jums bus sutaupyta laiko ir sumažintos mokesčių naštos. Tad galite susisiekti su mumis, mes padėsime nustatyti, kuris pasirinkimas yra jums yra pigesnis bei pakonsultuosime kitais klausimais.",
 
-  hero:
-    "https://firebasestorage.googleapis.com/v0/b/flats-af6d2.appspot.com/o/articles%2Fbuto-nuomos-mokesciai-lietuvoje%2Fbuto-nuoma-ir-jos-mokesciai.jpg?alt=media&token=fcff9ee1-1769-476f-9c49-d361c38c861a",
+  hero: "https://firebasestorage.googleapis.com/v0/b/flats-af6d2.appspot.com/o/articles%2Fbuto-nuomos-mokesciai-lietuvoje%2Fbuto-nuoma-ir-jos-mokesciai.jpg?alt=media&token=fcff9ee1-1769-476f-9c49-d361c38c861a",
   heroalt:
     "Buto nuomos mokesčiai Lietuvoje: sužinokite, kaip apskaičiuoti ir sumokėti mokesčius teisingai",
   firstimg:
@@ -73,7 +71,7 @@ export const articleTwo = {
   trdimg:
     "https://firebasestorage.googleapis.com/v0/b/flats-af6d2.appspot.com/o/articles%2Fbuto-nuomos-mokesciai-lietuvoje%2Fnuomos-mokesciai.jpg?alt=media&token=a174876d-751c-48e0-944a-5233977b01ef",
   trdalt:
-    "Lietuvoje nuomojant butą: patarimai, kaip teisingai apskaičiuoti ir sumokėti mokesčius"
+    "Lietuvoje nuomojant butą: patarimai, kaip teisingai apskaičiuoti ir sumokėti mokesčius",
 };
 
 export const articleThree = {
@@ -97,8 +95,7 @@ export const articleThree = {
   frthpar:
     "Taip pat reiktų nepamiršti ir nekilnojamo turto perdavimo priemimo akto, tai yra svarbus dokumentas, kuris patvirtina nekilnojamo turto perdavimą nuo vienos šalies (nuomotojo) kitai (nuominkui). Jis yra reikalingas norint legaliai ir įtvirtinti perdavimo santykius. Šiame aktu, nurodoma nekilnojamojo turto informacija, kiekis, būsto kokybės įrodymai, komunalinių paslaugų rodmenys ir kt. Šį dokumenta privalu pasirašyti būsto perdavimo dieną ir jį pasirašo nuomotojas ir nuomininkas patvirtindami sutarties sąlygas.",
 
-  hero:
-    "https://firebasestorage.googleapis.com/v0/b/flats-af6d2.appspot.com/o/articles%2Fbuto-nuomos-sutartis%2Fbuto-nuomos-sutartis-lietuviskai.jpg?alt=media&token=cd24baf3-7744-43d1-b263-1a8f6216d6fd",
+  hero: "https://firebasestorage.googleapis.com/v0/b/flats-af6d2.appspot.com/o/articles%2Fbuto-nuomos-sutartis%2Fbuto-nuomos-sutartis-lietuviskai.jpg?alt=media&token=cd24baf3-7744-43d1-b263-1a8f6216d6fd",
   heroalt:
     "Buto nuomos sutartis Lietuvoje: kaip sudaryti teisingą ir apsaugoti savo teises.",
   firstimg:
@@ -112,7 +109,7 @@ export const articleThree = {
   trdimg:
     "https://firebasestorage.googleapis.com/v0/b/flats-af6d2.appspot.com/o/articles%2Fbuto-nuomos-sutartis%2Fnuomos-sutartis.jpg?alt=media&token=b0dd3e36-9682-4f8e-af6a-614d6552f49e",
   trdalt:
-    "Lietuvoje nuomojantis butą: patarimai, kaip sudaryti teisingą nuomos sutartį ir apsaugoti savo teises"
+    "Lietuvoje nuomojantis butą: patarimai, kaip sudaryti teisingą nuomos sutartį ir apsaugoti savo teises",
 };
 
 export const articleFour = {
@@ -136,8 +133,7 @@ export const articleFour = {
   frthpar:
     "Ilgalaikė buto nuoma yra geras sprendimas, tačiau rekomenduojame atidžiai pasiruošti ir gerai apgalvoti savo sprendimą. Tai apima patikrinimą, ar butas atitinka reikalavimus, sutarimą dėl nuomos mokesčio, taip pat atsakomybės už remontą ir kitus klausimus. Be to, rekomenduojame pasiruošti ir savo finansus, kad būtų užtikrintas stabilus ir ilgalaikis nuomos mokestis. Nuomotojams rekomenduojame susitikti su nuomokinku prieš patvirtinant sutarti ir atlikti detalią patikrinimą, tai padės išvengti problemų ateityje.",
 
-  hero:
-    "https://firebasestorage.googleapis.com/v0/b/flats-af6d2.appspot.com/o/articles%2Ftrumpalaike-ilgalaike-nuoma%2Fkuo-skiriasi-trumpalaike-ilgalaike-nuoma-vilniuje.jpg?alt=media&token=12923199-3353-46f9-bc8b-dd0d72c54d28",
+  hero: "https://firebasestorage.googleapis.com/v0/b/flats-af6d2.appspot.com/o/articles%2Ftrumpalaike-ilgalaike-nuoma%2Fkuo-skiriasi-trumpalaike-ilgalaike-nuoma-vilniuje.jpg?alt=media&token=12923199-3353-46f9-bc8b-dd0d72c54d28",
   heroalt:
     "Ilgalaikė butų nuoma Lietuvoje: patarimai, kaip pasirinkti geriausią sprendimą",
   firstimg:
@@ -151,7 +147,7 @@ export const articleFour = {
   trdimg:
     "https://firebasestorage.googleapis.com/v0/b/flats-af6d2.appspot.com/o/articles%2Ftrumpalaike-ilgalaike-nuoma%2Ftrumpalaike-ilgalaike-nuoma-ir-jos-taisykles.jpg?alt=media&token=0bb944ff-b543-46cb-9b40-07cfc37160ad",
   trdalt:
-    "Lietuvoje nuomojantis butą: trumpalaikė ar ilgalaikė butų nuoma? Patarimai, kaip pasirinkti geriausią sprendimą ir apskaičiuoti nuomos kainą"
+    "Lietuvoje nuomojantis butą: trumpalaikė ar ilgalaikė butų nuoma? Patarimai, kaip pasirinkti geriausią sprendimą ir apskaičiuoti nuomos kainą",
 };
 
 export const articleFive = {
@@ -175,8 +171,7 @@ export const articleFive = {
   frthpar:
     "Naudokite nekilnojamojo turto agentą, advokatą arba kreipkitės į mus, specialistai padės sudaryti teisingą ir apsaugančią jūsų interesus nuomos sutartį. Įtraukite sąlygas, kurios apsaugo jūsų interesus, pavyzdžiui, sąlygą dėl kainos pakeitimų ar nuomininkų atsakomybės už bet kokius nuostolius ar pažeidimus. Atsižvelkite į visus įstatymus ir reikalavimus, susijusius su buto nuoma jūsų vietoje. Tai gali apimti mokesčius, sąlygas dėl kainų pakeitimų ar nuomininkų atsakomybę už nuostolius.",
 
-  hero:
-    "https://firebasestorage.googleapis.com/v0/b/flats-af6d2.appspot.com/o/articles%2Flegali-buto-nuoma%2Fkaip-legaliai-nuomoti-buta.jpg?alt=media&token=678ea9bd-0c72-4dbd-86b8-78d9939e49ec",
+  hero: "https://firebasestorage.googleapis.com/v0/b/flats-af6d2.appspot.com/o/articles%2Flegali-buto-nuoma%2Fkaip-legaliai-nuomoti-buta.jpg?alt=media&token=678ea9bd-0c72-4dbd-86b8-78d9939e49ec",
   heroalt:
     "Legali buto nuoma Lietuvoje: patarimai, kaip sudaryti teisingą sutartį ir apsaugoti savo teises",
   firstimg:
@@ -190,7 +185,7 @@ export const articleFive = {
   trdimg:
     "https://firebasestorage.googleapis.com/v0/b/flats-af6d2.appspot.com/o/articles%2Flegali-buto-nuoma%2Flegali-buto-nuoma.jpg?alt=media&token=1dd917b9-f2e6-4cf5-aed0-cd488466d3a9",
   trdalt:
-    "Lietuvoje nuomojantis butą: patarimai, kaip užtikrinti legalią nuomą ir apsaugoti savo teises"
+    "Lietuvoje nuomojantis butą: patarimai, kaip užtikrinti legalią nuomą ir apsaugoti savo teises",
 };
 
 export const articleSix = {
@@ -214,8 +209,7 @@ export const articleSix = {
   frthpar:
     "Galiausiai, reikia atminti, kad nekilnojamo turto valdymas yra nuolatinis uždavinys, reikalaujantis kantrybės, komunikacijos ir problemų sprendimo gebėjimo. Svarbu atidžiai patikrinti savo nuomininkus, jeiimanoma atlikti kredito patikrinimą, patvirtinant jų darbo vietas ir gaunant rekomendacijas. Pasinaudokite bankinėmis mokėjimų sistemomis, tai gali būti automatinis sąskaitų išrašymas nuomininkams. Turėkite aiškų procesą, susijusį su vėluojančių mokėjimų ar nekilnojamo turto pažeidimais ir taikykite jį teisingai ir vienodai. Gerų santykių su nuomininkais kūrimas padeda išvengti problemų atsiradimo iš pradžių ir taip pat skatina jų nuomos sutarties pratęsimą. Turėti nekilnojamo turto valdytoją taip pat padės valdyti kasdienines operacijas jūsų nuomojamo turto. Jie padės tvarkyti nuomininkų komunikaciją, mokėjimų surinkimą ir priežiūros koordinavimą, suteikdami jums daugiau laiko skirti jūsų laisvalaikiui.",
 
-  hero:
-    "https://firebasestorage.googleapis.com/v0/b/flats-af6d2.appspot.com/o/articles%2Fnekilnojamo-turto-nuoma%2Fnekilnojamo-turto-nuoma-lietuvoje.jpg?alt=media&token=a4a4acd3-29b5-464d-8f6b-2e0a60b0fb1c",
+  hero: "https://firebasestorage.googleapis.com/v0/b/flats-af6d2.appspot.com/o/articles%2Fnekilnojamo-turto-nuoma%2Fnekilnojamo-turto-nuoma-lietuvoje.jpg?alt=media&token=a4a4acd3-29b5-464d-8f6b-2e0a60b0fb1c",
   heroalt:
     "Nekilnojamo turto nuoma Lietuvoje: patarimai, kaip pasirinkti geriausią pasiūlymą",
   firstimg:
@@ -229,46 +223,45 @@ export const articleSix = {
   trdimg:
     "https://firebasestorage.googleapis.com/v0/b/flats-af6d2.appspot.com/o/articles%2Fnekilnojamo-turto-nuoma%2Fpajamos-is-nekilnojamo-turto-nuomos.jpg?alt=media&token=db3fd03f-6929-459e-bf91-c8f52cd812fd",
   trdalt:
-    "Lietuvoje nuomojant nekilnojamąjį turtą: patarimai, kaip užtikrinti legalią nuomą"
+    "Lietuvoje nuomojant nekilnojamąjį turtą: patarimai, kaip užtikrinti legalią nuomą",
 };
 
 export const articleSeven = {
   id: 7,
-  url: "/straipsniai/nekilnojamo-turto-administravimas",
-  seotitle: "NT administravimas",
+  url: "/straipsniai/nuomos-administravimas",
+  seotitle: "Nuomos administravimas",
   seocontent:
-    "Šiame straipsnyje atsakysime kas yra NT administravimas. Jeigu kils papildomu klausimų lauksime Jūsų užklausos.",
-  headerone: "NT administravimas - kas tai?",
+    "Šiame straipsnyje atsakysime kas yra Nuomos administravimas. Jeigu kils papildomu klausimų lauksime Jūsų užklausos.",
+  headerone: "Nuomos administravimas",
 
-  header: "NT administravimas: kodėl tai svarbu?",
+  header: "Nuomos administravimas: kodėl tai svarbu?",
   firstpar:
-    "NT nuomos valdymas yra procesas, kurio metu stebima ir valdoma nuomojamų nekilnojamųjų turtų kasdieninė veikla. Tai apima užduotis, tokias kaip potencialių nuomininkų paieška ir patikrinimas, nuomos mokėjimų surinkimas, priežiūros ir remonto darbų atlikimas bei teisinių reikalavimų laikymasis. Nuomos valdymo tikslas yra užtikrinti, kad turtas būtų gerai prižiūrimas, kad nuomininkai būtų patenkinti ir kad turtas generuotų nuosavo turėtojui stabilų pajamų šaltinį.",
-  scndheader: "NT administratorių teikiamos paslaugos",
+    "Nuomos administravimas yra procesas, kurio metu stebima ir valdoma nuomojamų nekilnojamųjų turtų kasdieninė veikla. Tai apima užduotis, tokias kaip potencialių nuomininkų paieška ir patikrinimas, nuomos mokėjimų surinkimas, priežiūros ir remonto darbų atlikimas bei teisinių reikalavimų laikymasis. Nuomos valdymo tikslas yra užtikrinti, kad turtas būtų gerai prižiūrimas, kad nuomininkai būtų patenkinti ir kad turtas generuotų nuosavo turėtojui stabilų pajamų šaltinį.",
+  scndheader: "Nuomos administratorių teikiamos paslaugos",
   scndpar:
     "Nuomos administratorius gali teikti platų paslaugų spektrą nuomininkams ir nekilnojamojo turto savininkams. Šios paslaugos gali apimti nekilnojamojo turto skelbimą ir rinkodarą, kad rastų naujus nuomininkus, potencialių nuomininkų tikrinimą ir kredito patikrinimą, nuomos sutarčių ir kitų teisinių dokumentų tvarkymą bei nuomos surinkimą nuomininko vardu. Be to, nuomos valdytojas atsakingas už priežiūros ir remonto darbų tvarkaraščio sudarymą ir stebėjimą, bei sprendžia bet kokius nuomininkų skundus ar problemas, kurios gali kilti.",
-  trdheader: "NT administratorių paslaugų privalumai ir trūkumai",
+  trdheader: "Nuomos administratorių paslaugų privalumai ir trūkumai",
   trdpar:
-    "Nuomos valdytojo įdarbinimas gali būti puikus būdas nuomininkams ir nekilnojamojo turto savininkams sutaupyti laiko ir sumažinti savo turtų valdymo stresą. Tačiau svarbu atsiminti, kad yra tiek privalumų, tiek ir trūkumų šio sprendimo atžvilgiu. Viena vertus, nuomos valdytojas gali padėti užtikrinti, kad turtas būtų gerai prižiūrimas, kad nuomininkai būtų patenkinti ir kad turtas generuotų stabilų pajamų šaltinį, bei suteiktų daugiau laisvo laiko. Kita vertus, nuomotojai turi mokėti nuomos valdytojui mokestį, kuris gali sumažinti pelną.",
-  frthheader: "Ar NT administratorius tau?",
+    "Nuomos administratoriaus įdarbinimas gali būti puikus būdas nuomininkams ir nekilnojamojo turto savininkams sutaupyti laiko ir sumažinti savo turtų valdymo stresą. Tačiau svarbu atsiminti, kad yra tiek privalumų, tiek ir trūkumų šio sprendimo atžvilgiu. Viena vertus, nuomos valdytojas gali padėti užtikrinti, kad turtas būtų gerai prižiūrimas, kad nuomininkai būtų patenkinti ir kad turtas generuotų stabilų pajamų šaltinį, bei suteiktų daugiau laisvo laiko. Kita vertus, nuomotojai turi mokėti nuomos valdytojui mokestį, kuris gali sumažinti pelną.",
+  frthheader: "Ar nuomos administratorius tau?",
   frthpar:
-    "Nekilnojamo turto nuomos valdymas yra sudėtingas ir iššūkių keliantis uždavinys, kuris reikalauja plataus įgūdžių ir žinių spektro. Suprantant nuomos valdymo pagrindus, nuomininkai ir nekilnojamojo turto savininkai gali daryti pagrįstus sprendimus. Tačiau nepatyrusiems arba laiko stokojantiems NT savininkams tai gali būti puiki alternatyva. Tad nuspręsti turite patys pagal savo prioritetus, o teisingai valdomas nekilnojamo turto nuomos objektais gali būti stabilus ir pelningas pajamų šaltinis ilgus metus.",
+    "Nuomos administravimas yra sudėtingas ir iššūkių keliantis uždavinys, kuris reikalauja plataus įgūdžių ir žinių spektro. Suprantant nuomos valdymo pagrindus, nuomininkai ir nekilnojamojo turto savininkai gali daryti pagrįstus sprendimus. Tačiau nepatyrusiems arba laiko stokojantiems NT savininkams tai gali būti puiki alternatyva. Tad nuspręsti turite patys pagal savo prioritetus, o teisingai valdomas nekilnojamo turto nuomos objektais gali būti stabilus ir pelningas pajamų šaltinis ilgus metus.",
 
-  hero:
-    "https://firebasestorage.googleapis.com/v0/b/flats-af6d2.appspot.com/o/articles%2Fnekilnojamo-turto-administravimas%2Fnebrangus-nekilnojamo-turto-administravimas.jpg?alt=media&token=6dcb2730-4e17-4c48-9d46-983a68d99b29",
+  hero: "https://firebasestorage.googleapis.com/v0/b/flats-af6d2.appspot.com/o/articles%2Fnekilnojamo-turto-administravimas%2Fnebrangus-nekilnojamo-turto-administravimas.jpg?alt=media&token=6dcb2730-4e17-4c48-9d46-983a68d99b29",
   heroalt:
-    "NT administravimas Lietuvoje: patarimai, kaip efektyviai valdyti savo turtą",
+    "Nuomos administravimas Lietuvoje: patarimai, kaip efektyviai valdyti savo turtą",
   firstimg:
     "https://firebasestorage.googleapis.com/v0/b/flats-af6d2.appspot.com/o/articles%2Fnekilnojamo-turto-administravimas%2Fnekilnojamo-turto-administravimas-lietuvoje.jpg?alt=media&token=3e3f6abe-9b3e-4ecf-8b61-70e4dd6cf94b",
   firstalt:
-    "NT Lietuvoje: patarimai, kaip pasirinkti geriausią administravimo paslaugą",
+    "Nuomos administravimo patarimai, kaip pasirinkti geriausią administravimo paslaugą",
   scndimg:
     "https://firebasestorage.googleapis.com/v0/b/flats-af6d2.appspot.com/o/articles%2Fnekilnojamo-turto-administravimas%2Fnekilnojamo-turto-administravimas-vilniuje.jpg?alt=media&token=d39760cb-bebb-4051-822a-f95ec712fbe7",
   scndalt:
-    "NT administravimas Lietuvoje: patarimai, kaip apsaugoti savo turtą ir užtikrinti jo efektyvų valdymą",
+    "Nuomos administravimas Vilniuje: patarimai, kaip apsaugoti savo turtą ir užtikrinti jo efektyvų valdymą",
   trdimg:
     "https://firebasestorage.googleapis.com/v0/b/flats-af6d2.appspot.com/o/articles%2Fnekilnojamo-turto-administravimas%2Fpigus-nekilnojamo-turto-administravimas.jpg?alt=media&token=9e5073ae-0bde-459f-94be-d8aad12e1bb8",
   trdalt:
-    "Lietuvoje esantis nekilnojamasis turtas: patarimai, kaip pasirinkti geriausią administravimo paslaugą ir efektyviai valdyti savo turtą"
+    "Lietuvoje esantis nekilnojamasis turtas: patarimai, kaip pasirinkti geriausią nuomos administravimo paslaugą ir efektyviai valdyti savo turtą",
 };
 
 export const articleEight = {
@@ -292,8 +285,7 @@ export const articleEight = {
   frthpar:
     "Galiausiai, svarbu būti atviriems bei prienamiems potencialiems nuomininkams. Tai reiškia, kad turėtumėte greitai atsakyti į bet kokius jų klausimus ir tvarkyti peržiūras jų patogumui. Be to, turėtumėte būti pasiruošę parodysi turtą bet kuriuo laiku ir greitai atsakyti į užklausas. Būdami aktyvūs, padidinsite savo galimybes pritraukti ir išlaikyti patikimus nuomininkus. Išlaikykite profesionalų bendravimo stilių, būkite malonūs ir paslaugūs. Atminkite, kad atstovaujate savo turui ar savo verslui, todėl pozityvi nuotaika padės jums išsiskirti kaip nuomininku, su kuriuo yra patogu dirbti ir kuris siekia rasti abejom pusėm prienamas sąlygas.",
 
-  hero:
-    "https://firebasestorage.googleapis.com/v0/b/flats-af6d2.appspot.com/o/articles%2Fkaip-greitai-isnuomoti-busta%2Fkaip-greitai-isnuomoti-busta-lietuvoje.jpg?alt=media&token=95bbdd40-35f2-4556-add4-aae6b21b786e",
+  hero: "https://firebasestorage.googleapis.com/v0/b/flats-af6d2.appspot.com/o/articles%2Fkaip-greitai-isnuomoti-busta%2Fkaip-greitai-isnuomoti-busta-lietuvoje.jpg?alt=media&token=95bbdd40-35f2-4556-add4-aae6b21b786e",
   heroalt:
     "Kaip greitai išnuomoti būstą Lietuvoje? Patarimai, kaip padidinti nuomos pasiūlymų skaičių",
   firstimg:
@@ -307,7 +299,7 @@ export const articleEight = {
   trdimg:
     "https://firebasestorage.googleapis.com/v0/b/flats-af6d2.appspot.com/o/articles%2Fkaip-greitai-isnuomoti-busta%2Fpigiai-ir-greitai-isnuomoti-busta.jpg.jpg?alt=media&token=a9804453-e45b-4ae9-95f5-a9a77946a678",
   trdalt:
-    "Lietuvoje esantis būstas: patarimai, kaip greitai surasti nuomininkus ir išnuomoti savo turtą"
+    "Lietuvoje esantis būstas: patarimai, kaip greitai surasti nuomininkus ir išnuomoti savo turtą",
 };
 
 export const articleNine = {
@@ -331,8 +323,7 @@ export const articleNine = {
   frthpar:
     "Paskutinis žingsnis ruošiant butą nuomai – kokybiškai nufotografuoti erdvę. Šios nuotraukos bus naudojamos reklamuojant butą, todėl svarbu įsitikinti, kad jos yra gerai apšviestos, tinkamai pasuktos ir atspindi geriausias buto savybes. Būtinai fotografuokite iš skirtingų kampų ir, jei įmanoma, naudokite natūralią šviesą. Svarbu erdvę pateikti kuo geriau, o kokybiškos nuotraukos padės potencialiems nuomininkams geriausiai pamatyti erdvę ir priimti sprendimą. Atlikę šiuos veiksmus galėsite greitai ir už puikią kainą išsinuomoti butą.",
 
-  hero:
-    "https://firebasestorage.googleapis.com/v0/b/flats-af6d2.appspot.com/o/articles%2Fkaip-paruosti-buta-nuomai%2Fkaip-paruosti-buta-nuomai-vilniuje.jpg?alt=media&token=f5a822e2-4193-413d-9cbd-0000b538a0a2",
+  hero: "https://firebasestorage.googleapis.com/v0/b/flats-af6d2.appspot.com/o/articles%2Fkaip-paruosti-buta-nuomai%2Fkaip-paruosti-buta-nuomai-vilniuje.jpg?alt=media&token=f5a822e2-4193-413d-9cbd-0000b538a0a2",
   heroalt:
     "Kaip paruošti butą nuomai Lietuvoje? Patarimai, kaip padidinti savo turto vertę",
   firstimg:
@@ -346,7 +337,7 @@ export const articleNine = {
   trdimg:
     "https://firebasestorage.googleapis.com/v0/b/flats-af6d2.appspot.com/o/articles%2Fkaip-paruosti-buta-nuomai%2Fkaip-paruosti-buta-nuomai-lietuvoje.jpg?alt=media&token=d8a44222-c9eb-4acc-b7f4-3ae4ed3181a3",
   trdalt:
-    "Lietuvoje esantis butas: patarimai, kaip paruošti butą nuomai ir surasti nuomininkus"
+    "Lietuvoje esantis butas: patarimai, kaip paruošti butą nuomai ir surasti nuomininkus",
 };
 
 export const articleTen = {
@@ -370,8 +361,7 @@ export const articleTen = {
   frthpar:
     "Kiekvienas turėtu pasirinkti nuomos administravimo tipa pagal save, kadangi ilgalaikis nuomos administravima ir trumpalaikis turi savų privalumų ir trūkumų. Ilgalaikio nuomos turto valdymas tendencingai stabilus ir numatomas, o trumpalaikio nuomos turto valdymas gali suteikti didesnį pelną. Galiausiai, geriausias nuomos turto valdymo tipas priklausys nuo asmeninių poreikių ir tikslų. Svarbu apsvarstyti visus veiksnius ir priimti informuotą sprendimą, investuojant į nekilnojamą turtą.",
 
-  hero:
-    "https://firebasestorage.googleapis.com/v0/b/flats-af6d2.appspot.com/o/articles%2Filgalaikes-nuomos-administravimas%2Filgalaike-nuoma-ir-jos-administravimas-lietuvoje.jpg?alt=media&token=57cefc42-88b8-4377-95dd-1f4fe70c37fc",
+  hero: "https://firebasestorage.googleapis.com/v0/b/flats-af6d2.appspot.com/o/articles%2Filgalaikes-nuomos-administravimas%2Filgalaike-nuoma-ir-jos-administravimas-lietuvoje.jpg?alt=media&token=57cefc42-88b8-4377-95dd-1f4fe70c37fc",
   heroalt:
     "Ilgalaikės nuomos administravimas Lietuvoje: patarimai, kaip efektyviai valdyti savo nekilnojamąjį turtą",
   firstimg:
@@ -385,7 +375,7 @@ export const articleTen = {
   trdimg:
     "https://firebasestorage.googleapis.com/v0/b/flats-af6d2.appspot.com/o/articles%2Filgalaikes-nuomos-administravimas%2Fkaip-administruoti-ilgalaike-nuoma.jpg?alt=media&token=fbd5b86e-989f-4dc6-a40b-01b0b3c23187",
   trdalt:
-    "Lietuvoje esantis nekilnojamasis turtas: patarimai, kaip pasirinkti geriausią ilgalaikės nuomos administravimo paslaugą ir efektyviai valdyti savo turtą"
+    "Lietuvoje esantis nekilnojamasis turtas: patarimai, kaip pasirinkti geriausią ilgalaikės nuomos administravimo paslaugą ir efektyviai valdyti savo turtą",
 };
 
 export const articleEleven = {
@@ -394,7 +384,8 @@ export const articleEleven = {
   seotitle: "Pasyvios pajamos iš nekilnojamo turto",
   seocontent:
     "Šiame straipsnyje rasite informacijos kaip gauti pasyvių pajamų iš nekilnojamo turto. Jeigu kils papildomu klausimų lauksime Jūsų užklausos.",
-  headerone: "Pasyvios pajamos iš nekilnojamo turto - kaip užtikrinti stabilumą?",
+  headerone:
+    "Pasyvios pajamos iš nekilnojamo turto - kaip užtikrinti stabilumą?",
 
   header: "Pasyvios pajamos iš nekilnojamo turto",
   firstpar:
@@ -402,15 +393,15 @@ export const articleEleven = {
   scndheader: "Privalumai nuomojant NT",
   scndpar:
     "Vienas iš didžiausių nuomojant nekilnojamąjį turtą esančių privalumų yra stabilus pajamų srautas. Skirtumai nuo akcijų ar obligacijų, nuomos turto objektai generuoja nuolatines pajamas kiekvieną mėnesį. Be to, nuomos turto objektai gali padidėti vertėje laikui bėgant, suteikiant potencialų kapitalo prieaugį, kai objektas galiausiai parduodamas. Kitas privalumas yra galimybė pasinaudoti kitų žmonių pinigais, kad įsigytų objektus. Bankai ir kitos paskolų institucijos dažnai skolina pinigus investuotojams, kad jie galėtų įsigyti nuomos turto objektus. Tai leidžia investuotojams įsigyti objektus, kuriuos jie patys negalėtų sau leisti. Be to, nuomos pajamos dažnai gali padengti hipotekos įmokas ir kitas nuomos turto objekto sąskaitas.",
-  trdheader: "Kaip sukuti portfelį pasyvioms pajamoms iš nekilnojamo turto gauti",
+  trdheader:
+    "Kaip sukuti portfelį pasyvioms pajamoms iš nekilnojamo turto gauti",
   trdpar:
     "Norint sukurti sėkmingą nuomos turto portfelį, svarbu susitelkti į gerose vietose esančių objektų įsigijimą. Objektai, esantys pageidaujamose vietose, paprastai yra lengviau nuomojami ir gali gauti didesnes nuomos kainas. Be to, svarbu gerai susipažinti su vietos nekilnojamojo turto rinka ir būti susipažinus su bet kokiais trendais ar pokyčiais, kurie gali paveikti jūsų objektų vertę. Kita svarbi nuomos turto portfelio sudarymo dalis yra koncentruotis į pinigų srautus. Svarbu įsigyti objektus, kurie generuoja teigiamus pinigų srautus, tai reiškia, kad nuomos pajamos turi būti didesnės nei susijusios su objekto nuomojimu išlaidos. Be to, svarbu gerai susipažinti su nuomojant nekilnojamąjį turtą susijusiomis išlaidomis, tokiomis kaip nekilnojamojo turto mokesčiai, draudimas ir priežiūros išlaidos.",
   frthheader: "Išvados",
   frthpar:
     "Taigi tai yra puikus būdas gauti pasyvias pajamas iš nekilnojamo turto nuomos. Turėdami vieną ar kelis nuomos turto objektus, galite gauti stabilų pajamų šaltinį neleidžiant daug savo laiko ar energijos. Be to, nuomos turto objektai gali padidėti vertėje laikui bėgant, potencialiai keliant ir nuomos kainas. Pagrindiniai aspektai norint sukurti sėkmingą nuomos turto portfelį, svarbu susitelkti į gerose vietose esančių objektų įsigijimą, gerai susipažinti su vietos nekilnojamojo turto rinka ir koncentruotis į pinigų srautus. Teisinga strategija nuomojant nekilnojamąjį turtą gali būti puikus būdas kurti ilgalaikias pasyvias pajamas.",
 
-  hero:
-    "https://firebasestorage.googleapis.com/v0/b/flats-af6d2.appspot.com/o/articles%2Fpasyvios-pajamos-is-nekilnojamo-turto%2Fidejos-pasyvioms-pajamoms-is-nekilnojamo-turto.jpg?alt=media&token=372b59e8-7ec6-4123-b180-9928e4187ff9",
+  hero: "https://firebasestorage.googleapis.com/v0/b/flats-af6d2.appspot.com/o/articles%2Fpasyvios-pajamos-is-nekilnojamo-turto%2Fidejos-pasyvioms-pajamoms-is-nekilnojamo-turto.jpg?alt=media&token=372b59e8-7ec6-4123-b180-9928e4187ff9",
   heroalt:
     "Sužinokite, kaip gauti pasyvias pajamas iš nekilnojamo turto - pasinaudokite mūsų patarimais ir strategijomis",
   firstimg:
@@ -424,7 +415,7 @@ export const articleEleven = {
   trdimg:
     "https://firebasestorage.googleapis.com/v0/b/flats-af6d2.appspot.com/o/articles%2Fpasyvios-pajamos-is-nekilnojamo-turto%2Fpasyvios-pajamos-is-nekilnojamo-turto.jpg?alt=media&token=53255a28-e214-4efd-88cc-af231886970b",
   trdalt:
-    "asyvios pajamos iš nekilnojamo turto - kaip sukurti ilgalaikius turtus ir pasinaudoti nuomos pajamomis"
+    "asyvios pajamos iš nekilnojamo turto - kaip sukurti ilgalaikius turtus ir pasinaudoti nuomos pajamomis",
 };
 
 export const articleTwelve = {
@@ -448,8 +439,7 @@ export const articleTwelve = {
   frthpar:
     "Nekilnojamojo turto valdymo paslaugos suteikia savininkams daugybę privalumų. Nuo sąnaudų sumažinimo ir padidinto užimtumo, NT valdymo įmonės gali padėti savininkams maksimizuoti jų investicijos grąžą. Nors tradicinės nekilnojamojo turto brokeriavimo paslaugos visada turės vietos komerciniame sektoriuje, nekilnojamojo turto valdymo paslaugos yra reali alternatyva, kuri turėtų būti apsvarstyta savininkų ir investuotojų.",
 
-  hero:
-    "https://firebasestorage.googleapis.com/v0/b/flats-af6d2.appspot.com/o/articles%2Fnt-brokerio-paslaugu-alternatyva%2Fkas-yra-nt-brokerio-paslaugu-altervatyva.jpg?alt=media&token=a7edba79-ec61-40fc-bf31-297b9032c243",
+  hero: "https://firebasestorage.googleapis.com/v0/b/flats-af6d2.appspot.com/o/articles%2Fnt-brokerio-paslaugu-alternatyva%2Fkas-yra-nt-brokerio-paslaugu-altervatyva.jpg?alt=media&token=a7edba79-ec61-40fc-bf31-297b9032c243",
   heroalt:
     "Nekilnojamojo turto brokerio paslaugų altervatyva - tai nekilnojamojo turto valdymo paslaugos, kurios gali sutaupyti pinigus ir padidinti efektyvumą.",
   firstimg:
@@ -463,5 +453,5 @@ export const articleTwelve = {
   trdimg:
     "https://firebasestorage.googleapis.com/v0/b/flats-af6d2.appspot.com/o/articles%2Fnt-brokerio-paslaugu-alternatyva%2Fnt-brokerio-paslaugu-altervatyva.jpg?alt=media&token=6af0d998-de93-4eb7-bd44-3bcbb9524c4c",
   trdalt:
-    "Nekilnojamojo turto valdymo paslaugos - tai alternatyva nekilnojamojo turto brokerio paslaugoms, kurios gali padėti maksimizuoti investicijos grąžą ir sumažinti sąnaudas."
+    "Nekilnojamojo turto valdymo paslaugos - tai alternatyva nekilnojamojo turto brokerio paslaugoms, kurios gali padėti maksimizuoti investicijos grąžą ir sumažinti sąnaudas.",
 };

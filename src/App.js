@@ -5,7 +5,7 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Navigate
+  Navigate,
 } from "react-router-dom";
 import Home from "./pages";
 import ContactPage from "./pages/contacts";
@@ -25,12 +25,10 @@ import {
   articleNine,
   articleTen,
   articleEleven,
-  articleTwelve
+  articleTwelve,
 } from "./components/ArticleOne/Data";
 
 function App() {
-  
-
   return (
     <Router>
       <Routes>
@@ -70,7 +68,7 @@ function App() {
           exact
         />
         <Route
-          path="/straipsniai/nekilnojamo-turto-administravimas"
+          path="/straipsniai/nuomos-administravimas"
           element={<ArticlePageOne {...articleSeven} />}
           exact
         />
@@ -100,9 +98,6 @@ function App() {
           element={<ArticlePageOne {...articleTwelve} />}
           exact
         />
-        
-        
-       
       </Routes>
     </Router>
   );

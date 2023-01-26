@@ -37,7 +37,7 @@ const Footer = () => {
         <FooterLinksContainer>
           <FooterLinkItems>
             <FooterLinkTitle to="/" onClick={toggleHome}>
-              Nuomos administravimas
+              Flats.lt
             </FooterLinkTitle>
             <FooterParLeft>
               Flats.lt sprendžia visus jums rūpimus nekilnojamo turto nuomos
