@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Hero from "../../images/nekilnojamo_turto_nuomos_administravimas.png";
+import Hero from "../../images/nuomos_administravimas.png";
 import {
   HeroBg,
   HeroContainer,
@@ -10,7 +10,7 @@ import {
   HeroBtnWrapper,
   ArrowForward,
   ArrowRight,
-  Button
+  Button,
 } from "./HeroElements";
 
 const HeroSection = () => {
@@ -26,9 +26,10 @@ const HeroSection = () => {
         <ImageBg src={Hero} />
       </HeroBg>
       <HeroContent>
-        <HeroH1>Nekilnojamo turto nuomos administravimas</HeroH1>
+        <HeroH1>Nuomos administravimas</HeroH1>
         <HeroP>
-        Flats.lt - visos NT nuomos administravimo paslaugos vienoje vietoje
+          Flats.lt - visos nekilnojamo turto nuomos administravimo paslaugos
+          vienoje vietoje
         </HeroP>
         <HeroBtnWrapper>
           <Button

@@ -8,6 +8,7 @@ Disallow: /pramogos-vilniuje/
 Disallow: /tag/
 Disallow: /kontaktai/
 Disallow: /sekmingai-issiusta
+Allow: /
 Allow: /prisijungti/
 Allow: /kontaktu-forma/
 Allow: /straipsniai/

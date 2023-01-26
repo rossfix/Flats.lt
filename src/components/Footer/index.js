@@ -1,5 +1,4 @@
 import React from "react";
-import { animateScroll as scroll } from "react-scroll";
 import { useNavigate } from "react-router-dom";
 import {
   FooterColumnsContainer,
@@ -17,6 +16,7 @@ import {
   LanguageWrap,
   LanguageSite,
   LanguageSeparator,
+  FooterTitle,
 } from "./FooterElements";
 
 const Footer = () => {
@@ -27,32 +27,26 @@ const Footer = () => {
     navigate(path);
   };
 
-  const toggleHome = () => {
-    scroll.scrollToTop();
-  };
-
   return (
     <FooterContainer>
       <FooterColumnsContainer>
         <FooterLinksContainer>
           <FooterLinkItems>
-            <FooterLinkTitle to="/" onClick={toggleHome}>
-              Flats.lt
-            </FooterLinkTitle>
+            <FooterLinkTitle href="/">Nuomos administravimas</FooterLinkTitle>
             <FooterParLeft>
-              Flats.lt sprendžia visus jums rūpimus nekilnojamo turto nuomos
-              administravimo klausimus. Susisiekite su mumis del savo problemos
-              ir mes ją išspręsime!
+              Flats.lt sprendžia visus jums rūpimus nuomos administravimo
+              klausimus. Susisiekite su mumis del savo problemos ir mes ją
+              išspręsime!
             </FooterParLeft>
 
             <FooterLink to="/straipsniai">Straipsniai</FooterLink>
           </FooterLinkItems>
 
           <FooterLinkItems>
-            <FooterLinkTitle>Kontaktai</FooterLinkTitle>
+            <FooterTitle>Kontaktai</FooterTitle>
             <FooterPar>El. paštas: flats.lithuania@gmail.com</FooterPar>
             <FooterLink to="/kontaktu-forma">Susisiekti</FooterLink>
-            <FooterLinkTitle>Savitarna</FooterLinkTitle>
+            <FooterTitle>Savitarna</FooterTitle>
             <FooterBtnDinamic onClick={routeChange}>
               Prisijungti
             </FooterBtnDinamic>

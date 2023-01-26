@@ -6,7 +6,7 @@ import InfoSection from "../components/InfoSection";
 import {
   homeObjOne,
   homeObjThree,
-  homeObjTwo
+  homeObjTwo,
 } from "../components/InfoSection/Data";
 import Services from "../components/Services";
 import Footer from "../components/Footer";
@@ -21,14 +21,13 @@ const Home = () => {
 
   return (
     <>
-    <Helmet>
-        <title>Nekilnojamo turto nuomos administravimas</title>
+      <Helmet>
+        <title>Nuomos administravimas</title>
         <meta
           name="description"
-          content="Nekilnojamo turto nuomos administravimas ir visos NT valdymo paslaugos vienoje vietoje. Administruojame visą nuomos paslaugų ciklą: nuo paieškos iki sutarties pabaigos."
+          content="Nuomos administravimas ir visos NT nuomos valdymo paslaugos vienoje vietoje. Administruojame visą nuomos paslaugų ciklą: nuo paieškos iki sutarties pabaigos."
           data-react-helmet="true"
-       />
-    
+        />
       </Helmet>
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />

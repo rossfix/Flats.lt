@@ -16,7 +16,7 @@ import {
   ArticleSubContainer,
   ButtonCont,
   HeroContent,
-  HeroH1
+  HeroH1,
 } from "../components/ArticleOne/ArticleOneElements";
 
 const ArticlePageOne = ({
@@ -38,13 +38,17 @@ const ArticlePageOne = ({
   trdimg,
   trdalt,
   frthheader,
-  frthpar
+  frthpar,
 }) => {
   return (
     <>
       <Helmet>
         <title>{seotitle}</title>
-        <meta name="description" content={seocontent} data-react-helmet="true"/>
+        <meta
+          name="description"
+          content={seocontent}
+          data-react-helmet="true"
+        />
       </Helmet>
       <ScrollToTop />
       <StationarNav />
@@ -77,10 +81,10 @@ const ArticlePageOne = ({
             <ArticleHeader>{frthheader}</ArticleHeader>
             <ArticleParagraph>{frthpar}</ArticleParagraph>
             <ArticleParagraph>
-              Tikiuosi, kad šie patarimai padės jums sėkmingai nuomoti savo namą
+              Tikimės, kad šie patarimai padės jums sėkmingai nuomoti savo namą
               ar butą ir patikimai pasirūpinti savo turtu. Jei turite daugiau
               klausimų ar norite sužinoti daugiau apie nuomos procesą,
-              nedvejodami kreipkitės mūsų komanda čia, kad padėtų jums!
+              nedvejodami kreipkitės - mūsų komanda čia, kad padėtų jums!
             </ArticleParagraph>
             <ButtonCont>
               <NavBtnLink to="/kontaktu-forma">Susisiekti</NavBtnLink>

@@ -228,40 +228,41 @@ export const articleSix = {
 
 export const articleSeven = {
   id: 7,
-  url: "/straipsniai/nuomos-administravimas",
-  seotitle: "Nuomos administravimas",
+  url: "/straipsniai/nekilnojamo-turto-nuomos-administravimas",
+  seotitle: "Nekilnojamo turto nuomos administravimas",
   seocontent:
-    "Šiame straipsnyje atsakysime kas yra Nuomos administravimas. Jeigu kils papildomu klausimų lauksime Jūsų užklausos.",
-  headerone: "Nuomos administravimas",
+    "Šiame straipsnyje atsakysime kas yra Nekilnojamo turto nuomos administravimas. Jeigu kils papildomu klausimų lauksime Jūsų užklausos.",
+  headerone: "Nekilnojamo turto nuomos administravimas",
 
-  header: "Nuomos administravimas: kodėl tai svarbu?",
+  header: "Nekilnojamo turto nuomos administravimas: kodėl tai svarbu?",
   firstpar:
-    "Nuomos administravimas yra procesas, kurio metu stebima ir valdoma nuomojamų nekilnojamųjų turtų kasdieninė veikla. Tai apima užduotis, tokias kaip potencialių nuomininkų paieška ir patikrinimas, nuomos mokėjimų surinkimas, priežiūros ir remonto darbų atlikimas bei teisinių reikalavimų laikymasis. Nuomos valdymo tikslas yra užtikrinti, kad turtas būtų gerai prižiūrimas, kad nuomininkai būtų patenkinti ir kad turtas generuotų nuosavo turėtojui stabilų pajamų šaltinį.",
-  scndheader: "Nuomos administratorių teikiamos paslaugos",
+    "Nekilnojamo turto nuomos administravimas yra procesas, kurio metu stebima ir valdoma nuomojamų objektų kasdieninė veikla. Tai apima užduotis, tokias kaip potencialių nuomininkų paieška ir patikrinimas, nuomos mokėjimų surinkimas, priežiūros ir remonto darbų atlikimas bei teisinių reikalavimų laikymasis. Nuomos valdymo tikslas yra užtikrinti, kad turtas būtų gerai prižiūrimas, kad nuomininkai būtų patenkinti ir kad turtas generuotų stabilų pajamų šaltinį.",
+  scndheader: "Nekilnojamo turto nuomos administratorių teikiamos paslaugos",
   scndpar:
-    "Nuomos administratorius gali teikti platų paslaugų spektrą nuomininkams ir nekilnojamojo turto savininkams. Šios paslaugos gali apimti nekilnojamojo turto skelbimą ir rinkodarą, kad rastų naujus nuomininkus, potencialių nuomininkų tikrinimą ir kredito patikrinimą, nuomos sutarčių ir kitų teisinių dokumentų tvarkymą bei nuomos surinkimą nuomininko vardu. Be to, nuomos valdytojas atsakingas už priežiūros ir remonto darbų tvarkaraščio sudarymą ir stebėjimą, bei sprendžia bet kokius nuomininkų skundus ar problemas, kurios gali kilti.",
-  trdheader: "Nuomos administratorių paslaugų privalumai ir trūkumai",
+    "Nekilnojamo turto nuomos administratorius gali teikti platų paslaugų spektrą nuomininkams ir nekilnojamojo turto savininkams. Šios paslaugos gali apimti nekilnojamojo turto skelbimą ir rinkodarą, kad rastų naujus nuomininkus, potencialių nuomininkų tikrinimą ir kredito patikrinimą, nuomos sutarčių ir kitų teisinių dokumentų tvarkymą bei nuomos surinkimą nuomininko vardu. Be to, nuomos valdytojas atsakingas už priežiūros ir remonto darbų tvarkaraščio sudarymą ir stebėjimą, bei sprendžia bet kokius nuomininkų skundus ar problemas, kurios gali kilti.",
+  trdheader:
+    "Nekilnojamo turto nuomos administratorių paslaugų privalumai ir trūkumai",
   trdpar:
-    "Nuomos administratoriaus įdarbinimas gali būti puikus būdas nuomininkams ir nekilnojamojo turto savininkams sutaupyti laiko ir sumažinti savo turtų valdymo stresą. Tačiau svarbu atsiminti, kad yra tiek privalumų, tiek ir trūkumų šio sprendimo atžvilgiu. Viena vertus, nuomos valdytojas gali padėti užtikrinti, kad turtas būtų gerai prižiūrimas, kad nuomininkai būtų patenkinti ir kad turtas generuotų stabilų pajamų šaltinį, bei suteiktų daugiau laisvo laiko. Kita vertus, nuomotojai turi mokėti nuomos valdytojui mokestį, kuris gali sumažinti pelną.",
-  frthheader: "Ar nuomos administratorius tau?",
+    "Nekilnojamo turto nuomos administratoriaus įdarbinimas gali būti puikus būdas nuomininkams ir nekilnojamojo turto savininkams sutaupyti laiko ir sumažinti savo turtų valdymo stresą. Tačiau svarbu atsiminti, kad yra tiek privalumų, tiek ir trūkumų šio sprendimo atžvilgiu. Viena vertus, nuomos valdytojas gali padėti užtikrinti, kad turtas būtų gerai prižiūrimas, kad nuomininkai būtų patenkinti ir kad turtas generuotų stabilų pajamų šaltinį, bei suteiktų daugiau laisvo laiko. Kita vertus, nuomotojai turi mokėti nuomos valdytojui mokestį, kuris gali sumažinti pelną.",
+  frthheader: "Ar nekilnojamo turto nuomos administratorius tau?",
   frthpar:
-    "Nuomos administravimas yra sudėtingas ir iššūkių keliantis uždavinys, kuris reikalauja plataus įgūdžių ir žinių spektro. Suprantant nuomos valdymo pagrindus, nuomininkai ir nekilnojamojo turto savininkai gali daryti pagrįstus sprendimus. Tačiau nepatyrusiems arba laiko stokojantiems NT savininkams tai gali būti puiki alternatyva. Tad nuspręsti turite patys pagal savo prioritetus, o teisingai valdomas nekilnojamo turto nuomos objektais gali būti stabilus ir pelningas pajamų šaltinis ilgus metus.",
+    "Nekilnojamo turto nuomos administravimas yra sudėtingas ir iššūkių keliantis uždavinys, kuris reikalauja plataus įgūdžių ir žinių spektro. Suprantant nuomos valdymo pagrindus, nuomininkai ir nekilnojamojo turto savininkai gali daryti pagrįstus sprendimus. Tačiau nepatyrusiems arba laiko stokojantiems NT savininkams tai gali būti puiki alternatyva. Tad nuspręsti turite patys pagal savo prioritetus, o teisingai valdomas nekilnojamo turto nuomos objektais gali būti stabilus ir pelningas pajamų šaltinis ilgus metus.",
 
   hero: "https://firebasestorage.googleapis.com/v0/b/flats-af6d2.appspot.com/o/articles%2Fnekilnojamo-turto-administravimas%2Fnebrangus-nekilnojamo-turto-administravimas.jpg?alt=media&token=6dcb2730-4e17-4c48-9d46-983a68d99b29",
   heroalt:
-    "Nuomos administravimas Lietuvoje: patarimai, kaip efektyviai valdyti savo turtą",
+    "Nekilnojamo turto nuomos administravimas Lietuvoje: patarimai, kaip efektyviai valdyti savo turtą",
   firstimg:
     "https://firebasestorage.googleapis.com/v0/b/flats-af6d2.appspot.com/o/articles%2Fnekilnojamo-turto-administravimas%2Fnekilnojamo-turto-administravimas-lietuvoje.jpg?alt=media&token=3e3f6abe-9b3e-4ecf-8b61-70e4dd6cf94b",
   firstalt:
-    "Nuomos administravimo patarimai, kaip pasirinkti geriausią administravimo paslaugą",
+    "Nekilnojamo turto nuomos administravimo patarimai, kaip pasirinkti geriausią administravimo paslaugą",
   scndimg:
     "https://firebasestorage.googleapis.com/v0/b/flats-af6d2.appspot.com/o/articles%2Fnekilnojamo-turto-administravimas%2Fnekilnojamo-turto-administravimas-vilniuje.jpg?alt=media&token=d39760cb-bebb-4051-822a-f95ec712fbe7",
   scndalt:
-    "Nuomos administravimas Vilniuje: patarimai, kaip apsaugoti savo turtą ir užtikrinti jo efektyvų valdymą",
+    "Nekilnojamo turto nuomos administravimas Vilniuje: patarimai, kaip apsaugoti savo turtą ir užtikrinti jo efektyvų valdymą",
   trdimg:
     "https://firebasestorage.googleapis.com/v0/b/flats-af6d2.appspot.com/o/articles%2Fnekilnojamo-turto-administravimas%2Fpigus-nekilnojamo-turto-administravimas.jpg?alt=media&token=9e5073ae-0bde-459f-94be-d8aad12e1bb8",
   trdalt:
-    "Lietuvoje esantis nekilnojamasis turtas: patarimai, kaip pasirinkti geriausią nuomos administravimo paslaugą ir efektyviai valdyti savo turtą",
+    "Lietuvoje esantis nekilnojamasis turtas: patarimai, kaip pasirinkti geriausią nekilnojamo turto nuomos administravimo paslaugą ir efektyviai valdyti savo turtą",
 };
 
 export const articleEight = {
@@ -359,7 +360,7 @@ export const articleTen = {
     "Trumpalaikės nuomos turto valdymas reiškia nuomoti turtą periodui trumpesniam nei metai, pavyzdžiui, per platformas kaip Airbnb ar Booking. Didžiausias šio tipo nuomos turto valdymo privalumas yra tai, kad jis gali suteikti didesnį pajamingumą, nes trumpalaikės nuomos įkainiai yprastai aukštesni nei ilgalaikės nuomos administravimo atveju. Be to, trumpalaikio nuomos turto valdymas gali būti lankstesnis ir geresnis pasirinkimas tiems, kurie kartais nori naudoti savo turtą. Kita vertus, trumpalaikio nuomos turto valdymas gali būti nestabilias, nes nuomininkai dažniau linkę sugadinti turtą ar sukelti trikdžių. Be to, gali būti sunkiau tvarkyti turtą ir planuoti remontus, nes trumpalaikiai nuomininkai gali neprižiūrėti turtą taip gerai kaip ilgalaikiai nuomininkai. Be to, trumpalaikio nuomos turto valdymas gali užimti daugiau laiko, nes reikia dažniau valyti bei keisti nuomininkus.",
   frthheader: "Ar ilgalaikis nuomos administravimas, ar trumpalaikis?",
   frthpar:
-    "Kiekvienas turėtu pasirinkti nuomos administravimo tipa pagal save, kadangi ilgalaikis nuomos administravima ir trumpalaikis turi savų privalumų ir trūkumų. Ilgalaikio nuomos turto valdymas tendencingai stabilus ir numatomas, o trumpalaikio nuomos turto valdymas gali suteikti didesnį pelną. Galiausiai, geriausias nuomos turto valdymo tipas priklausys nuo asmeninių poreikių ir tikslų. Svarbu apsvarstyti visus veiksnius ir priimti informuotą sprendimą, investuojant į nekilnojamą turtą.",
+    "Kiekvienas turėtu pasirinkti nuomos administravimo tipa pagal save, kadangi ilgalaikis nuomos administravimas ir trumpalaikis turi savų privalumų ir trūkumų. Ilgalaikio nuomos administravimas tendencingai stabilus ir numatomas, o trumpalaikis turto valdymas gali suteikti didesnį pelną. Galiausiai, geriausias nuomos turto valdymo tipas priklausys nuo asmeninių poreikių ir tikslų. Svarbu apsvarstyti visus veiksnius ir priimti informuotą sprendimą, investuojant į nekilnojamą turtą.",
 
   hero: "https://firebasestorage.googleapis.com/v0/b/flats-af6d2.appspot.com/o/articles%2Filgalaikes-nuomos-administravimas%2Filgalaike-nuoma-ir-jos-administravimas-lietuvoje.jpg?alt=media&token=57cefc42-88b8-4377-95dd-1f4fe70c37fc",
   heroalt:

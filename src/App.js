@@ -68,7 +68,7 @@ function App() {
           exact
         />
         <Route
-          path="/straipsniai/nuomos-administravimas"
+          path="/straipsniai/nekilnojamo-turto-nuomos-administravimas"
           element={<ArticlePageOne {...articleSeven} />}
           exact
         />

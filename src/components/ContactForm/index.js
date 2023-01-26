@@ -1,10 +1,10 @@
 import React from "react";
-import Hero from "../../images/nekilnojamo_turto_nuomos_administravimas.png";
+import Hero from "../../images/nuomos_administravimas.png";
 import {
   HeroBg,
   HeroContainer,
   ImageBg,
-  HeroContent
+  HeroContent,
 } from "../../components/HeroSection/HeroElements";
 import {
   FormLabel,
@@ -13,7 +13,7 @@ import {
   FormText,
   FormBtn,
   FormItems,
-  H1
+  H1,
 } from "./ContactFormElements";
 
 const ContactForm = () => {
@@ -23,7 +23,7 @@ const ContactForm = () => {
         <ImageBg src={Hero} />
       </HeroBg>
       <HeroContent>
-      <H1>Susisiekite su nekilnojamo turto valdymo profesionalais</H1>
+        <H1>Susisiekite su nekilnojamo turto valdymo profesionalais</H1>
         <FormContent
           method="POST"
           name="contactform"
@@ -47,9 +47,8 @@ const ContactForm = () => {
             <FormLabel>Žinutė:</FormLabel>
             <FormText name="message" rows="4" required></FormText>
           </FormItems>
-          
-            <FormBtn type="submit">Siųsti</FormBtn>
-         
+
+          <FormBtn type="submit">Siųsti</FormBtn>
         </FormContent>
       </HeroContent>
     </HeroContainer>

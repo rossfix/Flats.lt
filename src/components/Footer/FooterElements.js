@@ -43,7 +43,20 @@ export const FooterLinkItems = styled.div`
   }
 `;
 
-export const FooterLinkTitle = styled.h1`
+export const FooterLinkTitle = styled.a`
+  color: #fff;
+  text-align: justify;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 16px 0px;
+  width: 160px;
+  &:hover {
+    text-decoration: none;
+    color: #fff;
+  }
+`;
+export const FooterTitle = styled.p`
   color: #fff;
   text-align: justify;
   text-decoration: none;
@@ -124,16 +137,16 @@ export const WebsiteRights = styled.small`
 `;
 
 export const LanguageWrap = styled.div`
-display: flex;
-align-items: baseline;
-margin-bottom: -16px;
+  display: flex;
+  align-items: baseline;
+  margin-bottom: -16px;
 `;
 
 export const LanguageSite = styled.a`
-margin: 2px;
-color: #fff;
+  margin: 2px;
+  color: #fff;
 `;
 
 export const LanguageSeparator = styled.div`
-color: #fff;
+  color: #fff;
 `;

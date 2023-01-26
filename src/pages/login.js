@@ -1,23 +1,23 @@
 import { React, useState, useContext } from "react";
 import ScrollToTop from "../components/ScrollToTop";
 import StationarNav from "../components/Navbar/NoNav";
-import Hero from "../images/nekilnojamo_turto_nuomos_administravimas.png";
+import Hero from "../images/nuomos_administravimas.png";
 import {
   HeroBg,
   HeroContainer,
   ImageBg,
   HeroContent,
   HeroH1,
-  HeroP
+  HeroP,
 } from "../components/HeroSection/HeroElements";
 import styled from "styled-components";
-import {Button, Form, Input } from "antd";
+import { Button, Form, Input } from "antd";
 
 import Footer from "../components/Footer";
 import { Helmet } from "react-helmet";
 
 const BetterButton = styled(Button)`
-color: #fff !important;
+  color: #fff !important;
   margin-left: 5px;
   border-radius: 50px;
   background: #2a5965;
@@ -54,8 +54,6 @@ const ColumnContainer = styled.div`
 `;
 
 const LoginPage = () => {
- 
-
   return (
     <>
       <Helmet>
@@ -64,7 +62,7 @@ const LoginPage = () => {
           name="description"
           content="NT administravimo platforma, prisijungti nieko nekainuoja, palikite mums savo kontaktus ir mes su jumis susisieksime!"
           data-react-helmet="true"
-       />
+        />
       </Helmet>
       <ScrollToTop />
       <StationarNav />
@@ -78,7 +76,7 @@ const LoginPage = () => {
           <Form
             name="basic"
             wrapperCol={{
-              span: 25
+              span: 25,
             }}
             autoComplete="off"
           >
@@ -93,15 +91,11 @@ const LoginPage = () => {
                   rules={[
                     {
                       required: true,
-                      message: "Įrašykite vardą!"
-                    }
+                      message: "Įrašykite vardą!",
+                    },
                   ]}
                 >
-                  <Input
-                    type="email"
-                    onChange={console.log("pavyko!")
-                    }
-                  />
+                  <Input type="email" onChange={console.log("pavyko!")} />
                 </Form.Item>
 
                 <Form.Item
@@ -109,24 +103,27 @@ const LoginPage = () => {
                   rules={[
                     {
                       required: true,
-                      message: "Įrašykite slaptažodį!"
-                    }
+                      message: "Įrašykite slaptažodį!",
+                    },
                   ]}
                 >
                   <Input.Password
                     type="password"
-                    onChange={console.log("pavyko!")
-                                      }
+                    onChange={console.log("pavyko!")}
                   />
                 </Form.Item>
               </ColumnContainer>
             </FormContainer>
             <Form.Item
               wrapperCol={{
-                offset: 8
+                offset: 8,
               }}
             >
-              <BetterButton onClick={()=>{ alert('Neteisingas vartotojo vardas!'); }}>
+              <BetterButton
+                onClick={() => {
+                  alert("Neteisingas vartotojo vardas!");
+                }}
+              >
                 Prisijungti
               </BetterButton>
             </Form.Item>

@@ -1,14 +1,14 @@
 import React from "react";
 import ScrollToTop from "../components/ScrollToTop";
 import StationarNav from "../components/Navbar/NoNav";
-import Hero from "../images/nekilnojamo_turto_nuomos_administravimas.png";
+import Hero from "../images/nuomos_administravimas.png";
 import {
   HeroBg,
   HeroContainer,
   ImageBg,
   HeroContent,
   HeroH1,
-  HeroP
+  HeroP,
 } from "../components/HeroSection/HeroElements";
 import { NavBtnLink } from "../components/Navbar/NavbarElements";
 import Footer from "../components/Footer";

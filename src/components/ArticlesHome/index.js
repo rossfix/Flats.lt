@@ -1,10 +1,10 @@
 import React from "react";
-import Hero from "../../images/nekilnojamo_turto_nuomos_administravimas.png";
+import Hero from "../../images/nuomos_administravimas.png";
 import {
   HeroBg,
   ImageBg,
   HeroContent,
-  HeroH1
+  HeroH1,
 } from "../../components/HeroSection/HeroElements";
 import {
   HeroContainerArticles,
@@ -12,7 +12,7 @@ import {
   ArticlesSubContainer,
   PaginationGrid,
   ArticleCont,
-  AntPagination
+  AntPagination,
 } from "./ArticleHomeElements";
 import ArticleCard from "./CardStyle";
 import {
@@ -27,7 +27,7 @@ import {
   articleNine,
   articleTen,
   articleEleven,
-  articleTwelve
+  articleTwelve,
 } from "../ArticleOne/Data";
 
 const ArticlesHomeComponent = () => {

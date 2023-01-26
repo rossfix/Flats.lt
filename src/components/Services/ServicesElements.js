@@ -21,7 +21,7 @@ export const ServicesContainer = styled.div`
   }
 `;
 
-export const ServicesH1 = styled.h2`
+export const ServicesH2 = styled.h2`
   font-size: 2.5rem;
   color: #fdf2ed;
   margin: 80px 40px 80px 40px;
@@ -78,7 +78,7 @@ export const ServicesIcon = styled.img`
   }
 `;
 
-export const ServicesH2 = styled.h3`
+export const ServicesH3 = styled.h3`
   font-size: 1rem;
   margin-bottom: 10px;
   color: #2a5965;
