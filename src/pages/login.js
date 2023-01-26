@@ -57,7 +57,7 @@ const LoginPage = () => {
   return (
     <>
       <Helmet>
-        <title>NT administravimo platforma - prisijungti</title>
+        <title>NT administravimo platforma</title>
         <meta
           name="description"
           content="NT administravimo platforma, prisijungti nieko nekainuoja, palikite mums savo kontaktus ir mes su jumis susisieksime!"
@@ -71,7 +71,7 @@ const LoginPage = () => {
           <ImageBg src={Hero} />
         </HeroBg>
         <HeroContent>
-          <HeroH1>NT administravimo platforma - prisijungti</HeroH1>
+          <HeroH1>NT administravimo platforma</HeroH1>
 
           <Form
             name="basic"

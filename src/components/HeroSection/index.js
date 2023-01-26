@@ -11,6 +11,7 @@ import {
   ArrowForward,
   ArrowRight,
   Button,
+  HeroH1Under,
 } from "./HeroElements";
 
 const HeroSection = () => {
@@ -27,10 +28,8 @@ const HeroSection = () => {
       </HeroBg>
       <HeroContent>
         <HeroH1>Nuomos administravimas</HeroH1>
-        <HeroP>
-          Flats.lt - visos nekilnojamo turto nuomos administravimo paslaugos
-          vienoje vietoje
-        </HeroP>
+        <HeroH1Under>patikimose rankose</HeroH1Under>
+        <HeroP>Visos nuomos administravimo paslaugos vienoje vietoje</HeroP>
         <HeroBtnWrapper>
           <Button
             to="/kontaktu-forma"
