@@ -29,7 +29,7 @@
 			<changefreq>weekly</changefreq>
 		</url>
 		<url>
-			<loc>http://flats.lt/straipsniai/trumpalaike-ilgalaike-nuoma</loc>
+			<loc>http://flats.lt/straipsniai/ilgalaike-butu-nuoma</loc>
 			<changefreq>weekly</changefreq>
 		</url>
 		<url>
@@ -41,7 +41,7 @@
 			<changefreq>weekly</changefreq>
 		</url>
 		<url>
-			<loc>http://flats.lt/straipsniai/nekilnojamo-turto-administravimas</loc>
+			<loc>http://flats.lt/straipsniai/nuomos-administravimas</loc>
 			<changefreq>weekly</changefreq>
 		</url>
 		<url>
@@ -54,6 +54,14 @@
 		</url>
 		<url>
 			<loc>http://flats.lt/straipsniai/ilgalaikes-nuomos-administravimas</loc>
+			<changefreq>weekly</changefreq>
+		</url>
+		<url>
+			<loc>http://flats.lt/straipsniai/pasyvios-pajamos-is-nekilnojamo-turto</loc>
+			<changefreq>weekly</changefreq>
+		</url>
+		<url>
+			<loc>http://flats.lt/straipsniai/nt-brokerio-paslaugu-altervatyva</loc>
 			<changefreq>weekly</changefreq>
 		</url>
 	
