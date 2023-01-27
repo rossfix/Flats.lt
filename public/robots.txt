@@ -11,6 +11,7 @@ Disallow: /sekmingai-issiusta
 Allow: /
 Allow: /prisijungti/
 Allow: /kontaktu-forma/
+Allow: /straipsniai/nekilnojamo-turto-nuomos-administravimas/
 Allow: /straipsniai/
 Allow: /straipsniai/*/
 

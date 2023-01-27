@@ -80,28 +80,25 @@ export const FooterLink = styled(Link)`
     color: #1f424a;
     transition: 0.3s ease-out;
     transform: scale(1.02);
-  
-  }
   }
 `;
 
 export const FooterBtnDinamic = styled.button`
-color: #2a5965;
-text-decoration: none;
-margin-bottom: 0.5rem;
-font-size: 14px;
-border-style: solid;
-border-width: 0px;
-padding: 0px 8px;
-border-radius: 10px;
-background-color: #fdf2ed;
-&:hover {
-  color: #1f424a;
-  transition: 0.3s ease-out;
-  transform: scale(1.02);
-
-}
-}`;
+  color: #2a5965;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+  font-size: 14px;
+  border-style: solid;
+  border-width: 0px;
+  padding: 0px 8px;
+  border-radius: 10px;
+  background-color: #fdf2ed;
+  &:hover {
+    color: #1f424a;
+    transition: 0.3s ease-out;
+    transform: scale(1.02);
+  }
+`;
 
 export const FooterParLeft = styled.p`
   color: #fff;
