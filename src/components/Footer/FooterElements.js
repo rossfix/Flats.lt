@@ -48,7 +48,7 @@ export const FooterLinkTitle = styled.a`
   text-align: justify;
   text-decoration: none;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
   margin: 16px 0px;
   width: 160px;
   &:hover {
@@ -61,7 +61,7 @@ export const FooterTitle = styled.p`
   text-align: justify;
   text-decoration: none;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
   margin: 16px 0px;
   width: 160px;
 `;
@@ -70,7 +70,7 @@ export const FooterLink = styled(Link)`
   color: #2a5965;
   text-decoration: none;
   margin-bottom: 0.5rem;
-  font-size: 14px;
+  font-size: 16px;
   border-style: solid;
   border-width: 1px;
   padding: 0px 8px;
@@ -87,7 +87,7 @@ export const FooterBtnDinamic = styled.button`
   color: #2a5965;
   text-decoration: none;
   margin-bottom: 0.5rem;
-  font-size: 14px;
+  font-size: 16px;
   border-style: solid;
   border-width: 0px;
   padding: 0px 8px;
@@ -104,14 +104,14 @@ export const FooterParLeft = styled.p`
   color: #fff;
   text-decoration: none;
   margin-bottom: 1rem;
-  font-size: 14px;
+  font-size: 16px;
 `;
 
 export const FooterPar = styled.p`
   color: #fff;
   text-decoration: none;
   margin-bottom: 0.2rem;
-  font-size: 14px;
+  font-size: 16px;
 `;
 
 export const SocialMedia = styled.section`
@@ -141,9 +141,12 @@ export const LanguageWrap = styled.div`
 
 export const LanguageSite = styled.a`
   margin: 2px;
+  margin-left: 12px;
   color: #fff;
+  font-size: 16px;
 `;
 
 export const LanguageSeparator = styled.div`
   color: #fff;
+  margin-left: 12px;
 `;

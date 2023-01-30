@@ -44,7 +44,8 @@ const Footer = () => {
 
           <FooterLinkItems>
             <FooterTitle>Kontaktai</FooterTitle>
-            <FooterPar>El. paštas: flats.lithuania@gmail.com</FooterPar>
+            <FooterPar>El. paštas: </FooterPar>
+            <FooterPar>flats.lithuania@gmail.com</FooterPar>
             <FooterLink to="/kontaktu-forma">Susisiekti</FooterLink>
             <FooterTitle>Savitarna</FooterTitle>
             <FooterBtnDinamic onClick={routeChange}>
