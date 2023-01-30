@@ -7,7 +7,7 @@ import {
   SidebarMenu,
   SidebarLink,
   SideBtnWrap,
-  SidebarRoute
+  SidebarRoute,
 } from "./SidebarElements";
 
 const Sidebar = ({ isOpen, toggle }) => {
@@ -63,7 +63,7 @@ const Sidebar = ({ isOpen, toggle }) => {
           <SidebarRoute to="/kontaktu-forma">Susisiekti</SidebarRoute>
         </SideBtnWrap>
         <SideBtnWrap>
-          <SidebarRoute to="/savitarna">Prisijungti</SidebarRoute>
+          <SidebarRoute to="/prisijungti">Prisijungti</SidebarRoute>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>
