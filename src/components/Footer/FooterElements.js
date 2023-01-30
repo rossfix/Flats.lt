@@ -131,6 +131,7 @@ export const SocialMediaWrap = styled.div`
 export const WebsiteRights = styled.small`
   color: #fff;
   margin-bottom: 16px;
+  font-size: 16px;
 `;
 
 export const LanguageWrap = styled.div`
