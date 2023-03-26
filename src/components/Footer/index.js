@@ -47,10 +47,7 @@ const Footer = () => {
             <FooterPar>El. paštas: </FooterPar>
             <FooterPar>flats.lithuania@gmail.com</FooterPar>
             <FooterLink to="/kontaktu-forma">Susisiekti</FooterLink>
-            <FooterTitle>Savitarna</FooterTitle>
-            <FooterBtnDinamic onClick={routeChange}>
-              Prisijungti
-            </FooterBtnDinamic>
+            <FooterLink to="/prisijungti">Platforma</FooterLink>
           </FooterLinkItems>
         </FooterLinksContainer>
       </FooterColumnsContainer>

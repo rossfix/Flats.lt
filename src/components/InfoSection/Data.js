@@ -24,7 +24,7 @@ export const homeObjTwo = {
   topLine: "Vertės pasiūlymas",
   headline: "Įnovatyvus nuomos administravimas",
   description:
-    "Remiantis užsienio trumpalaikės bei ilgalaikės nekilnojamo turto nuomos administravimo patirtimis, inovatyvius sprendimus pritaikome ir Lietuvoje, tai užtikrina itin aukštą nuomos pajamingumą visais metų laikais.",
+    "Remiantis užsienio trumpalaikės bei ilgalaikės nekilnojamo turto nuomos administravimo patirtimis, inovatyvius sprendimus pritaikome ir Lietuvoje. Už patrauklią kainą užtikrinsim itin aukštą nuomos pajamingumą visais metų laikais.",
   img: require("../../images/nuomos-administravimas-pasiulymas.svg").default,
   alt: "Visos nuomos administravimo paslaugos",
 };

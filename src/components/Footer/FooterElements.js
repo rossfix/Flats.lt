@@ -69,7 +69,7 @@ export const FooterTitle = styled.p`
 export const FooterLink = styled(Link)`
   color: #2a5965;
   text-decoration: none;
-  margin-bottom: 0.5rem;
+  margin-top: 1rem;
   font-size: 16px;
   border-style: solid;
   border-width: 1px;

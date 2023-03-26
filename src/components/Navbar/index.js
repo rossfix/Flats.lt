@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
-import { MdOutlineAccountCircle } from "react-icons/md";
+
 import { animateScroll as scroll } from "react-scroll";
 import {
   Nav,
@@ -13,20 +13,9 @@ import {
   NavLinks,
   NavBtn,
   NavBtnLink,
-  NavButton
 } from "./NavbarElements";
 
 const Navbar = ({ toggle }) => {
- 
-  let navigate = useNavigate();
-
-  const routeChange = () => {
-   
-      let path = "/prisijungti";
-      navigate(path);
- 
-  };
-
   const [scrollNav, setScrollNav] = useState(false);
 
   const changeNav = () => {
@@ -110,9 +99,7 @@ const Navbar = ({ toggle }) => {
               <NavBtnLink to="/kontaktu-forma">Susisiekti</NavBtnLink>
             </NavBtn>
             <NavBtn>
-              <NavButton onClick={routeChange}>
-                <MdOutlineAccountCircle />
-              </NavButton>
+              <NavBtnLink to="/prisijungti">Platforma</NavBtnLink>
             </NavBtn>
           </NavMenu>
         </NavbarContainer>
