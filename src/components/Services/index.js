@@ -29,11 +29,11 @@ const Services = () => {
             pat sutarties pabaigos. Spręsime visus nuomininkams kilusius
             klausimus Jums tereikės mėgautis NT gaunama grąža.
           </ServicesP>
-          <HeroBtnWrapper>
+          {/*<HeroBtnWrapper>
             <Button to="/straipsniai/nekilnojamo-turto-nuomos-administravimas">
               Plačiau
             </Button>
-          </HeroBtnWrapper>
+          </HeroBtnWrapper>*/}
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon
