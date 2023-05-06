@@ -29,11 +29,11 @@ const Services = () => {
             pat sutarties pabaigos. Spręsime visus nuomininkams kilusius
             klausimus Jums tereikės mėgautis NT gaunama grąža.
           </ServicesP>
-          {/*<HeroBtnWrapper>
+          <HeroBtnWrapper>
             <Button to="/straipsniai/nekilnojamo-turto-nuomos-administravimas">
               Plačiau
             </Button>
-          </HeroBtnWrapper>*/}
+          </HeroBtnWrapper>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon
@@ -46,9 +46,9 @@ const Services = () => {
             platformą. Radus nuomininkus, valdykite objektų būseną, automatiškai
             išssiuskite sutartis bei stebėkite įmokas.
           </ServicesP>
-          {/*<HeroBtnWrapper>
-            <Button to="/prisijungti">Plačiau</Button>
-  </HeroBtnWrapper>*/}
+          <HeroBtnWrapper>
+            <Button to="/prisijungti">Prisijungti</Button>
+          </HeroBtnWrapper>
         </ServicesCard>
       </ServicesWrapper>
     </ServicesContainer>
