@@ -3,19 +3,21 @@ import ScrollToTop from "../components/ScrollToTop";
 import StationarNav from "../components/Navbar/NoNav";
 import ArticlesHomeComponent from "../components/ArticlesHome";
 import Footer from "../components/Footer";
-import { Helmet } from "react-helmet";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 
 const AllArticlesPage = () => {
   return (
     <>
-      <Helmet>
-        <title>NT Nuomos Straipsniai</title>
-        <meta
-          name="description"
-          content="NT nuomos straipsniai kurie padės efektyviau valdyti nekilnojamą turtą bei administruoti jo nuomą."
-          data-react-helmet="true"
-       />
-      </Helmet>
+      <HelmetProvider>
+        <Helmet>
+          <title>NT Nuomos Straipsniai</title>
+          <meta
+            name="description"
+            content="NT nuomos straipsniai kurie padės efektyviau valdyti nekilnojamą turtą bei administruoti jo nuomą."
+            data-react-helmet="true"
+          />
+        </Helmet>
+      </HelmetProvider>
       <ScrollToTop />
       <StationarNav />
       <ArticlesHomeComponent />

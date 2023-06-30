@@ -14,7 +14,7 @@ import styled from "styled-components";
 import { Button, Form, Input } from "antd";
 
 import Footer from "../components/Footer";
-import { Helmet } from "react-helmet";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 
 const BetterButton = styled(Button)`
   color: #fff !important;
@@ -56,14 +56,16 @@ const ColumnContainer = styled.div`
 const LoginPage = () => {
   return (
     <>
-      <Helmet>
-        <title>NT administravimo platforma</title>
-        <meta
-          name="description"
-          content="NT administravimo platforma, prisijungti nieko nekainuoja, palikite mums savo kontaktus ir mes su jumis susisieksime!"
-          data-react-helmet="true"
-        />
-      </Helmet>
+      <HelmetProvider>
+        <Helmet>
+          <title>NT administravimo platforma</title>
+          <meta
+            name="description"
+            content="NT administravimo platforma, prisijungti nieko nekainuoja, palikite mums savo kontaktus ir mes su jumis susisieksime!"
+            data-react-helmet="true"
+          />
+        </Helmet>
+      </HelmetProvider>
       <ScrollToTop />
       <StationarNav />
       <HeroContainer>

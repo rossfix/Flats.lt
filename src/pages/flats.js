@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import ScrollToTop from "../components/ScrollToTop";
 import StationarNav from "../components/Navbar/NoNav";
-
 import {
   ImgFlex,
   Img,
@@ -74,6 +73,14 @@ const FlatsPage = () => {
       <HelmetProvider>
         <Helmet>
           <title>Butas nuomai</title>
+          <meta property="og:type" content="website" />
+          <meta property="og:title" content={data.flatName} />
+          <meta
+            property="og:description"
+            content={data.description.substring(0, 50) + "..."}
+          />
+          <meta property="og:image" content={data.img[0]} />
+          <meta property="og:url" content="https://flats.lt" />
         </Helmet>
       </HelmetProvider>
       <ScrollToTop />

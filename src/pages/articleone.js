@@ -2,7 +2,7 @@ import React from "react";
 import ScrollToTop from "../components/ScrollToTop";
 import StationarNav from "../components/Navbar/NoNav";
 import Footer from "../components/Footer";
-import { Helmet } from "react-helmet";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import { NavBtnLink } from "../components/Navbar/NavbarElements";
 import {
   HeroContainerArticle,
@@ -42,14 +42,16 @@ const ArticlePageOne = ({
 }) => {
   return (
     <>
-      <Helmet>
-        <title>{seotitle}</title>
-        <meta
-          name="description"
-          content={seocontent}
-          data-react-helmet="true"
-        />
-      </Helmet>
+      <HelmetProvider>
+        <Helmet>
+          <title>{seotitle}</title>
+          <meta
+            name="description"
+            content={seocontent}
+            data-react-helmet="true"
+          />
+        </Helmet>
+      </HelmetProvider>
       <ScrollToTop />
       <StationarNav />
       <HeroContainerArticle>

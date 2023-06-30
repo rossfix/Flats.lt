@@ -12,14 +12,16 @@ import {
 } from "../components/HeroSection/HeroElements";
 import { NavBtnLink } from "../components/Navbar/NavbarElements";
 import Footer from "../components/Footer";
-import { Helmet } from "react-helmet";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 
 const ErrorPage = () => {
   return (
     <>
-      <Helmet>
-        <title>Nepavyko!</title>
-      </Helmet>
+      <HelmetProvider>
+        <Helmet>
+          <title>Nepavyko!</title>
+        </Helmet>
+      </HelmetProvider>
       <ScrollToTop />
       <StationarNav />
       <HeroContainer>

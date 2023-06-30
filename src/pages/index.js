@@ -10,7 +10,7 @@ import {
 } from "../components/InfoSection/Data";
 import Services from "../components/Services";
 import Footer from "../components/Footer";
-import { Helmet } from "react-helmet";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,14 +21,16 @@ const Home = () => {
 
   return (
     <>
-      <Helmet>
-        <title>Nuomos administravimas</title>
-        <meta
-          name="description"
-          content="Nuomos administravimas ir visos NT nuomos valdymo paslaugos vienoje vietoje. Administruojame visą nuomos paslaugų ciklą: nuo paieškos iki sutarties pabaigos."
-          data-react-helmet="true"
-        />
-      </Helmet>
+      <HelmetProvider>
+        <Helmet>
+          <title>Nuomos administravimas</title>
+          <meta
+            name="description"
+            content="Nuomos administravimas ir visos NT nuomos valdymo paslaugos vienoje vietoje. Administruojame visą nuomos paslaugų ciklą: nuo paieškos iki sutarties pabaigos."
+            data-react-helmet="true"
+          />
+        </Helmet>
+      </HelmetProvider>
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <HeroSection />
