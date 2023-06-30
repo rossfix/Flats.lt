@@ -73,16 +73,22 @@ const FlatsPage = () => {
       <HelmetProvider>
         <Helmet>
           <title>Butas nuomai</title>
-          <meta property="og:type" content="website" />
-          <meta property="og:title" content={data.flatName} />
-          <meta
-            property="og:description"
-            content={data.description.substring(0, 50) + "..."}
-          />
-          <meta property="og:image" content={data.img[0]} />
+          {data.flatName && (
+            <meta property="og:title" content={data.flatName} />
+          )}
+          {data.flatName && (
+            <meta
+              property="og:description"
+              content={data.description.substring(0, 50) + "..."}
+            />
+          )}
+          {data.flatName && <meta property="og:image" content={data.img[0]} />}
+
           <meta property="og:url" content="https://flats.lt" />
+          <meta property="og:type" content="website" />
         </Helmet>
       </HelmetProvider>
+
       <ScrollToTop />
       <StationarNav />
       <div>
