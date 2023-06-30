@@ -10,3 +10,37 @@
 .ant-row {
   display: block !important;
 }
+
+
+.ant-image-mask {
+  border-radius: 15px;
+  padding-left: 1rem;
+  margin: 0.5rem 0 0.5rem 0.5rem;
+  width: 100px;
+  height: 100px;
+  display: none !important;
+}
+
+.ImgLarge {
+  width: 480px !important;
+  margin-top: 4rem;
+
+  @media screen and (max-width: 480px) {
+    width: 80vw !important;
+    margin-top: 1rem;
+    
+  }
+}
+
+.ImgSmall {
+  width: 113px !important;
+  height: 90px !important;
+
+  @media screen and (max-width: 480px) {
+    width: 85px !important;
+    height: 60px !important;
+    margin: 2px !important;
+    border-radius: 5px !important;
+  }
+}
+

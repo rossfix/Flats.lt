@@ -1,6 +1,6 @@
 import { React, useContext } from "react";
 import "./App.css";
-import "antd/dist/antd.css";
+import "antd/dist/antd.min.css";
 import {
   BrowserRouter as Router,
   Routes,
@@ -13,6 +13,7 @@ import ErrorPage from "./pages/error";
 import LoginPage from "./pages/login";
 import AllArticlesPage from "./pages/articles";
 import ArticlePageOne from "./pages/articleone";
+import FlatsPage from "./pages/flats";
 import {
   articleOne,
   articleTwo,
@@ -42,6 +43,10 @@ function App() {
           element={<ArticlePageOne {...articleOne} />}
           exact
         />
+        <Route path="/butai">
+          <Route index element={<ErrorPage />} />
+          <Route path=":flatId" element={<FlatsPage></FlatsPage>} />
+        </Route>
         <Route
           path="/straipsniai/buto-nuomos-mokesciai-lietuvoje"
           element={<ArticlePageOne {...articleTwo} />}
