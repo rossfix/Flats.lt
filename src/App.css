@@ -23,24 +23,12 @@
 
 .ImgLarge {
   width: 93% !important;
-  margin-top: 4rem !important;
+  margin-top: 1rem !important;
 
-  @media screen and (max-width: 480px) {
-
-    margin-top: 1rem !important;
-    
-  }
 }
 
 .ImgSmall {
-  width: 105px !important;
-  height: 85px !important;
-
-  @media screen and (max-width: 480px) {
-    width: 80px !important;
-    height: 60px !important;
-    margin: 2px !important;
-    border-radius: 5px !important;
-  }
+  width: 6.5rem !important;
+  height: 75px !important;  
 }
 
