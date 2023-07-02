@@ -38,6 +38,9 @@ export const CustomPreviewGroup = styled(Img.PreviewGroup)``;
 
 export const PreviewGroup = styled.div`
   max-width: 500px;
+  @media screen and (max-width: 480px) {
+    width: 95%;
+  }
 `;
 export const ImgLast = styled.div`
   display: none;
