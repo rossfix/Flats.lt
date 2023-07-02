@@ -8,6 +8,7 @@ import {
   ImgElements,
   PreviewGroup,
   ImgLast,
+  ImgMob,
   TextGroup,
   Features,
   FeaturesPar,
@@ -105,8 +106,12 @@ const FlatsPage = () => {
                         <ImgElements key={index}>
                           {index === 0 ? (
                             <Img className="ImgLarge" src={imageUrl} />
-                          ) : index <= 4 ? (
+                          ) : index <= 3 ? (
                             <Img className="ImgSmall" src={imageUrl} />
+                          ) : index <= 4 ? (
+                            <ImgMob>
+                              <Img className="ImgSmall" src={imageUrl} />
+                            </ImgMob>
                           ) : (
                             <ImgLast>
                               <Img height={100} src={imageUrl} />

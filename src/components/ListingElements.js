@@ -43,6 +43,11 @@ export const PreviewGroup = styled.div`
 export const ImgLast = styled.div`
   display: none;
 `;
+export const ImgMob = styled.div`
+  @media screen and (max-width: 480px) {
+    display: none;
+  }
+`;
 
 export const ImgElements = styled.div`
   justify-content: center;
