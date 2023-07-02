@@ -22,20 +22,19 @@
 }
 
 .ImgLarge {
-  width: 480px !important;
+  width: 93% !important;
   margin-top: 4rem !important;
 
   @media screen and (max-width: 480px) {
-    width: 93% !important;
-    max-width: 400px !important;
+
     margin-top: 1rem !important;
     
   }
 }
 
 .ImgSmall {
-  width: 113px !important;
-  height: 90px !important;
+  width: 105px !important;
+  height: 85px !important;
 
   @media screen and (max-width: 480px) {
     width: 80px !important;
