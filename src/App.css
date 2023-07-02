@@ -23,11 +23,11 @@
 
 .ImgLarge {
   width: 480px !important;
-  margin-top: 4rem;
+  margin-top: 4rem !important;
 
   @media screen and (max-width: 480px) {
-    width: 80vw !important;
-    margin-top: 1rem;
+    width: 93% !important;
+    margin-top: 1rem !important;
     
   }
 }
