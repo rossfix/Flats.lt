@@ -47,6 +47,7 @@ export const ImgElements = styled.div`
   justify-content: center;
   align-items: center;
   margin: 0.25rem;
+  padding-right: 0.25rem;
 `;
 
 export const TextGroup = styled.div`
