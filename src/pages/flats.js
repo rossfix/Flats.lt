@@ -74,16 +74,16 @@ const FlatsPage = () => {
       <HelmetProvider>
         <Helmet>
           <title>Butas nuomai</title>
-          {data.flatName && (
-            <meta property="og:title" content={data.flatName} />
-          )}
-          {data.flatName && (
-            <meta
-              property="og:description"
-              content={data.description.substring(0, 50) + "..."}
-            />
-          )}
-          {data.flatName && <meta property="og:image" content={data.img[0]} />}
+
+          <meta property="og:title" content="Žveryno Panoramos" />
+          <meta
+            property="og:description"
+            content="Nuomojamas 2-jų k. butas, strategiškai patogioje v..."
+          />
+          <meta
+            property="og:image"
+            content="https://firebasestorage.googleapis.com/v0/b/flats-af6d2.appspot.com/o/uploads%2F1688386641916IMG_1002.jpeg?alt=media&token=18da150a-d59c-4170-939a-808cca9deee8"
+          />
 
           <meta property="og:url" content="https://flats.lt" />
           <meta property="og:type" content="website" />
