@@ -26,7 +26,14 @@ import Footer from "../components/Footer";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { FaFacebookMessenger, FaCalendarAlt } from "react-icons/fa";
 import { useParams } from "react-router-dom";
-import { doc, getDoc } from "firebase/firestore";
+import {
+  doc,
+  getDoc,
+  getDocs,
+  collection,
+  where,
+  query,
+} from "firebase/firestore";
 import { db, storage } from "../firebase";
 import { getDownloadURL, ref } from "firebase/storage";
 import Map from "../components/Map";
@@ -41,12 +48,23 @@ const FlatsPage = () => {
   useEffect(() => {
     const fetchData = async () => {
       const querySnapshot = await getDoc(doc(db, "flats", flatId));
+
       if (querySnapshot.exists()) {
         const documentData = querySnapshot.data();
         setData(documentData);
 
-        const userSnapshot = await getDoc(doc(db, "users", documentData.uid));
-        const userData = userSnapshot.data();
+        const userSnapshot = await getDocs(
+          query(
+            collection(db, "user_nonpersonal"),
+            where("uid", "==", documentData.uid)
+          )
+        );
+
+        const userData = [];
+        userSnapshot.forEach((doc) => {
+          userData.push(doc.data());
+        });
+
         setButtons(userData);
 
         try {
@@ -75,15 +93,16 @@ const FlatsPage = () => {
         <Helmet>
           <title>Butas nuomai</title>
 
-          <meta property="og:title" content="Žveryno Panoramos" />
-          <meta
-            property="og:description"
-            content="Nuomojamas 2-jų k. butas, strategiškai patogioje v..."
-          />
-          <meta
-            property="og:image"
-            content="https://firebasestorage.googleapis.com/v0/b/flats-af6d2.appspot.com/o/uploads%2F1688386641916IMG_1002.jpeg?alt=media&token=18da150a-d59c-4170-939a-808cca9deee8"
-          />
+          {data.flatName && (
+            <meta property="og:title" content={data.flatName} />
+          )}
+          {data.flatName && (
+            <meta
+              property="og:description"
+              content={data.description.substring(0, 50) + "..."}
+            />
+          )}
+          {data.flatName && <meta property="og:image" content={data.img[0]} />}
 
           <meta property="og:url" content="https://flats.lt" />
           <meta property="og:type" content="website" />
@@ -144,10 +163,10 @@ const FlatsPage = () => {
               </Features>
               <Price>{data.price} €/mėn</Price>
               <Contact>Susisiekti:</Contact>
-              <Button href={buttons.messenger} target="_blank">
+              <Button href={buttons[0].messenger} target="_blank">
                 <FaFacebookMessenger />
               </Button>
-              <Button href={buttons.calendar} target="_blank">
+              <Button href={buttons[0].calendar} target="_blank">
                 <FaCalendarAlt />
               </Button>
             </TextGroup>
