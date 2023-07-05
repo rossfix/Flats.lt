@@ -104,7 +104,7 @@ const FlatsPage = () => {
           )}
           {data.flatName && <meta property="og:image" content={data.img[0]} />}
 
-          <meta property="og:url" content="https://flats.lt" />
+          <meta property="og:url" content={"https://flats.lt/butai" + flatId} />
           <meta property="og:type" content="website" />
         </Helmet>
       </HelmetProvider>
