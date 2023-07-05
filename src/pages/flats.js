@@ -108,12 +108,13 @@ const FlatsPage = () => {
             />
           )}
           {data.flatName && <meta property="og:image" content={data.img[0]} />}
-
-          <meta
-            property="og:url"
-            content={"https://flats.lt/butai/" + flatId}
-            data-react-helmet="true"
-          />
+          {data.flatName && (
+            <meta
+              property="og:url"
+              content={"https://flats.lt/butai/" + flatId}
+              data-react-helmet="true"
+            />
+          )}
           <meta property="og:type" content="website" data-react-helmet="true" />
         </Helmet>
       </HelmetProvider>
