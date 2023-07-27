@@ -47,7 +47,7 @@ const Services = () => {
             išssiuskite sutartis bei stebėkite įmokas.
           </ServicesP>
           <HeroBtnWrapper>
-            <Button to="/prisijungti">Prisijungti</Button>
+            <Button to="/nuomos-valdymo-platforma">Nuomos valdymo platforma</Button>
           </HeroBtnWrapper>
         </ServicesCard>
       </ServicesWrapper>

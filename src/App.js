@@ -14,6 +14,8 @@ import LoginPage from "./pages/login";
 import AllArticlesPage from "./pages/articles";
 import ArticlePageOne from "./pages/articleone";
 import FlatsPage from "./pages/flats";
+import ManagementLanding from "./pages/management";
+
 import {
   articleOne,
   articleTwo,
@@ -37,6 +39,7 @@ function App() {
         <Route path="/kontaktu-forma" element={<ContactPage />} exact />
         <Route path="/prisijungti" element={<LoginPage />} exact />
         <Route path="/straipsniai" element={<AllArticlesPage />} exact />
+        <Route path="/nuomos-valdymo-platforma" element={<ManagementLanding />} exact />
         <Route path="/*" element={<ErrorPage />} exact />
         <Route
           path="/straipsniai/nt-nuomos-patarimai"
