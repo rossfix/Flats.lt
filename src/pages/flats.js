@@ -173,17 +173,18 @@ const FlatsPage = () => {
               </Features>
               <Price>{data.price} €/mėn</Price>
               <Contact>Susisiekti:</Contact>
-              <p>{buttons[0].tel}</p>
-              {/* {buttons.length > 0 && (
+
+              {buttons.length > 0 && (
                 <>
-                  <Button href={buttons[0].messenger} target="_blank">
+                  <p>{buttons[0].tel}</p>
+                  {/* <Button href={buttons[0].messenger} target="_blank">
                     <FaFacebookMessenger />
                   </Button>
                   <Button href={buttons[0].calendar} target="_blank">
                     <FaCalendarAlt />
-                  </Button>
+                  </Button> */}
                 </>
-              )} */}
+              )}
             </TextGroup>
           </AboutFlatSub>
         </AboutFlat>
