@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
-import ScrollToTop from "../components/ScrollToTop";
-import StationarNav from "../components/Navbar/NoNav";
+import React, { useState, useEffect } from 'react';
+import ScrollToTop from '../components/ScrollToTop';
+import StationarNav from '../components/Navbar/NoNav';
 import {
   ImgFlex,
   Img,
@@ -21,11 +21,11 @@ import {
   Desc,
   Contact,
   MapGroup,
-} from "../components/ListingElements";
-import Footer from "../components/Footer";
-import { Helmet, HelmetProvider } from "react-helmet-async";
-import { FaFacebookMessenger, FaCalendarAlt } from "react-icons/fa";
-import { useParams } from "react-router-dom";
+} from '../components/ListingElements';
+import Footer from '../components/Footer';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
+import { FaFacebookMessenger, FaCalendarAlt } from 'react-icons/fa';
+import { useParams } from 'react-router-dom';
 import {
   doc,
   getDoc,
@@ -33,10 +33,10 @@ import {
   collection,
   where,
   query,
-} from "firebase/firestore";
-import { db, storage } from "../firebase";
-import { getDownloadURL, ref } from "firebase/storage";
-import Map from "../components/Map";
+} from 'firebase/firestore';
+import { db, storage } from '../firebase';
+import { getDownloadURL, ref } from 'firebase/storage';
+import Map from '../components/Map';
 
 const FlatsPage = () => {
   const { flatId } = useParams();
@@ -47,7 +47,7 @@ const FlatsPage = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const querySnapshot = await getDoc(doc(db, "flats", flatId));
+      const querySnapshot = await getDoc(doc(db, 'flats', flatId));
 
       if (querySnapshot.exists()) {
         const documentData = querySnapshot.data();
@@ -55,8 +55,8 @@ const FlatsPage = () => {
 
         const userSnapshot = await getDocs(
           query(
-            collection(db, "user_nonpersonal"),
-            where("uid", "==", documentData.uid)
+            collection(db, 'user_nonpersonal'),
+            where('uid', '==', documentData.uid)
           )
         );
 
@@ -66,7 +66,7 @@ const FlatsPage = () => {
         });
 
         setButtons(userData);
-
+        console.log(userData);
         try {
           const urls = await Promise.all(
             (documentData.img || []).map(async (imageURL) => {
@@ -81,7 +81,7 @@ const FlatsPage = () => {
           setLoading(false);
         }
       } else {
-        console.log("No such document!");
+        console.log('No such document!');
       }
     };
     fetchData();
@@ -103,7 +103,7 @@ const FlatsPage = () => {
           {data.flatName && (
             <meta
               property="og:description"
-              content={data.description.substring(0, 50) + "..."}
+              content={data.description.substring(0, 50) + '...'}
               data-react-helmet="true"
             />
           )}
@@ -111,7 +111,7 @@ const FlatsPage = () => {
           {data.flatName && (
             <meta
               property="og:url"
-              content={"https://flats.lt/butai/" + flatId}
+              content={'https://flats.lt/butai/' + flatId}
               data-react-helmet="true"
             />
           )}
@@ -173,7 +173,8 @@ const FlatsPage = () => {
               </Features>
               <Price>{data.price} €/mėn</Price>
               <Contact>Susisiekti:</Contact>
-              {buttons.length > 0 && (
+              <p>{buttons[0].tel}</p>
+              {/* {buttons.length > 0 && (
                 <>
                   <Button href={buttons[0].messenger} target="_blank">
                     <FaFacebookMessenger />
@@ -182,7 +183,7 @@ const FlatsPage = () => {
                     <FaCalendarAlt />
                   </Button>
                 </>
-              )}
+              )} */}
             </TextGroup>
           </AboutFlatSub>
         </AboutFlat>
