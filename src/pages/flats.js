@@ -21,6 +21,7 @@ import {
   Desc,
   Contact,
   MapGroup,
+  ButtonText
 } from '../components/ListingElements';
 import Footer from '../components/Footer';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
@@ -173,16 +174,24 @@ const FlatsPage = () => {
               </Features>
               <Price>{data.price} €/mėn</Price>
               <Contact>Susisiekti:</Contact>
-
               {buttons.length > 0 && (
                 <>
-                  <p>{buttons[0].tel}</p>
-                  {/* <Button href={buttons[0].messenger} target="_blank">
-                    <FaFacebookMessenger />
-                  </Button>
-                  <Button href={buttons[0].calendar} target="_blank">
-                    <FaCalendarAlt />
-                  </Button> */}
+                  
+                  {buttons[0].tel && (
+              <p>{buttons[0].tel}</p>
+              )}
+                  {buttons[0].messenger && (
+              <Button href={buttons[0].messenger} target="_blank">
+                <FaFacebookMessenger />
+                <ButtonText>Messenger</ButtonText>
+              </Button>
+              )}
+              {buttons[0].calendar && (
+                <Button href={buttons[0].calendar} target="_blank">
+                  <FaCalendarAlt />
+                  <ButtonText>Kalendorius</ButtonText>
+                </Button>
+              )}
                 </>
               )}
             </TextGroup>

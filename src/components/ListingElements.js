@@ -101,6 +101,7 @@ export const Contact = styled.h3`
 
 export const Button = styled.a`
   margin-right: 15px;
+  margin-bottom: 15px;
   border-radius: 50px;
   background: #2a5965;
   white-space: nowrap;
@@ -112,6 +113,8 @@ export const Button = styled.a`
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
+  display: inline-flex;
+  text-align: center;
 
   &:hover {
     transition: all 0.2s ease-in-out;
@@ -127,4 +130,11 @@ export const MapGroup = styled.div`
   @media screen and (max-width: 480px) {
     max-width: 82vw;
   }
+`;
+
+
+export const ButtonText = styled.p`
+  margin: 0;
+  padding-left: 6px;
+  margin-top: -3px;
 `;
