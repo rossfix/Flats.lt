@@ -22,7 +22,7 @@ const Map = () => {
         const documentData = querySnapshot.data();
         setData(documentData);
 
-        const address = `${documentData.flatNr}+${documentData.street}+g.,+${documentData.city}+lithuania`;
+        const address = `${documentData.flatNr}+${documentData.street}+g.,+${documentData.city},+lithuania`;
         console.log(address);
         geocodeAddress(address);
       } else {
@@ -42,7 +42,6 @@ const Map = () => {
       if (results.length > 0) {
         const { lat, lng } = results[0].geometry.location;
         console.log('Latitude:', lat, 'Longitude:', lng);
-
         setPosition({ lat, lng });
       } else {
         console.log('No results found! Setting position to Vilnius center.');
