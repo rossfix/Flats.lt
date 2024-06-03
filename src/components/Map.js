@@ -22,7 +22,7 @@ const Map = () => {
         const documentData = querySnapshot.data();
         setData(documentData);
 
-        const address = `${documentData.flatNr}+${documentData.street}+g.,+${documentData.city},+lithuania`;
+        const address = `${documentData.homeNr}+${documentData.street}+g.,+${documentData.city},+lithuania`;
         console.log(address);
         geocodeAddress(address);
       } else {
