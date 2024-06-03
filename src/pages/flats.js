@@ -72,7 +72,7 @@ const FlatsPage = () => {
         });
 
         setButtons(userData);
-        console.log(userData);
+
         try {
           const urls = await Promise.all(
             (documentData.img || []).map(async (imageURL) => {
