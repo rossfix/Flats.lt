@@ -3,12 +3,11 @@ import ScrollToTop from '../components/ScrollToTop';
 import StationarNav from '../components/Navbar/NoNav';
 import {
   ImgFlex,
-  Img,
+  ImgLarge,
+  ImgSmall,
   CustomPreviewGroup,
-  ImgElements,
   PreviewGroup,
-  ImgLast,
-  ImgMob,
+  ImgSmallContainer,
   TextGroup,
   Features,
   FeaturesPar,
@@ -21,11 +20,17 @@ import {
   Desc,
   Contact,
   MapGroup,
-  ButtonText
+  ButtonText,
 } from '../components/ListingElements';
 import Footer from '../components/Footer';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
-import { FaFacebookMessenger, FaCalendarAlt } from 'react-icons/fa';
+import {
+  FaFacebookMessenger,
+  FaCalendarAlt,
+  FaPhoneAlt,
+  FaWpforms,
+} from 'react-icons/fa';
+
 import { useParams } from 'react-router-dom';
 import {
   doc,
@@ -132,23 +137,12 @@ const FlatsPage = () => {
                     <div>Krauna...</div>
                   ) : (
                     <>
-                      {imageUrls.map((imageUrl, index) => (
-                        <ImgElements key={index}>
-                          {index === 0 ? (
-                            <Img className="ImgLarge" src={imageUrl} />
-                          ) : index <= 3 ? (
-                            <Img className="ImgSmall" src={imageUrl} />
-                          ) : index <= 4 ? (
-                            <ImgMob>
-                              <Img className="ImgSmall" src={imageUrl} />
-                            </ImgMob>
-                          ) : (
-                            <ImgLast>
-                              <Img height={100} src={imageUrl} />
-                            </ImgLast>
-                          )}
-                        </ImgElements>
-                      ))}
+                      {imageUrls.length > 0 && <ImgLarge src={imageUrls[0]} />}
+                      <ImgSmallContainer>
+                        {imageUrls.slice(1).map((imageUrl, index) => (
+                          <ImgSmall key={index} src={imageUrl} />
+                        ))}
+                      </ImgSmallContainer>
                     </>
                   )}
                 </CustomPreviewGroup>
@@ -176,22 +170,31 @@ const FlatsPage = () => {
               <Contact>Susisiekti:</Contact>
               {buttons.length > 0 && (
                 <>
-                  
                   {buttons[0].tel && (
-              <p>{buttons[0].tel}</p>
-              )}
+                    <Button phoneNumber={buttons[0].tel}>
+                      <FaPhoneAlt />
+                      <ButtonText>{buttons[0].tel}</ButtonText>
+                    </Button>
+                  )}
                   {buttons[0].messenger && (
-              <Button href={buttons[0].messenger} target="_blank">
-                <FaFacebookMessenger />
-                <ButtonText>Messenger</ButtonText>
-              </Button>
-              )}
-              {buttons[0].calendar && (
-                <Button href={buttons[0].calendar} target="_blank">
-                  <FaCalendarAlt />
-                  <ButtonText>Kalendorius</ButtonText>
-                </Button>
-              )}
+                    <Button href={buttons[0].messenger} target="_blank">
+                      <FaFacebookMessenger />
+                      <ButtonText>Messenger</ButtonText>
+                    </Button>
+                  )}
+                  {buttons[0].calendar && (
+                    <Button href={buttons[0].calendar} target="_blank">
+                      <FaCalendarAlt />
+                      <ButtonText>Kalendorius</ButtonText>
+                    </Button>
+                  )}
+                  <Button
+                    href="https://flats.lt/kontaktu-forma"
+                    target="_blank"
+                  >
+                    <FaWpforms />
+                    <ButtonText>Forma</ButtonText>
+                  </Button>
                 </>
               )}
             </TextGroup>
