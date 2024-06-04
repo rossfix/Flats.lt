@@ -60,7 +60,16 @@ const PotentialTenantForm = ({ handleFormModalClose }) => {
 
   const onFinish = async (values) => {
     try {
-      const formData = { ...values, uid };
+      const formData = {
+        name: values.name || '',
+        surname: values.surname || '',
+        personalId: values.personalId || '',
+        email: values.email || '',
+        phone: values.phone || '',
+        adress: values.adress || '',
+        uid: uid, // Presuming uid always has a value by this point
+      };
+
       console.log(formData);
       // Adding the potential tenant to the potential_tenants collection
       await addDoc(collection(db, 'potential_tenants'), formData);
@@ -92,11 +101,7 @@ const PotentialTenantForm = ({ handleFormModalClose }) => {
         >
           <Input />
         </Form.Item>
-        <Form.Item
-          label="Asmens kodas"
-          name="personalId"
-          rules={[{ required: false }]}
-        >
+        <Form.Item label="Asmens kodas" name="personalId">
           <Input />
         </Form.Item>
 
@@ -118,7 +123,7 @@ const PotentialTenantForm = ({ handleFormModalClose }) => {
         >
           <Input />
         </Form.Item>
-        <Form.Item label="Adresas" name="adress" rules={[{ required: false }]}>
+        <Form.Item label="Adresas" name="adress">
           <Input />
         </Form.Item>
         <CenteredButtonContainer>
