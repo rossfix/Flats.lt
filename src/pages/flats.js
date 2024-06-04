@@ -30,7 +30,8 @@ import {
   FaPhoneAlt,
   FaWpforms,
 } from 'react-icons/fa';
-
+import { Modal } from 'antd';
+import PotentialTenantForm from './formTenants';
 import { useParams } from 'react-router-dom';
 import {
   doc,
@@ -43,6 +44,17 @@ import {
 import { db, storage } from '../firebase';
 import { getDownloadURL, ref } from 'firebase/storage';
 import Map from '../components/Map';
+import styled from 'styled-components';
+
+const RoundedModal = styled(Modal)`
+  .ant-modal-content {
+    border-radius: 20px; /* Adjust the border-radius value to your preference */
+  }
+  .ant-modal-header {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+`;
 
 const FlatsPage = () => {
   const { flatId } = useParams();
@@ -50,6 +62,7 @@ const FlatsPage = () => {
   const [imageUrls, setImageUrls] = useState([]);
   const [loading, setLoading] = useState(true);
   const [buttons, setButtons] = useState([]);
+  const [showFormModal, setShowFormModal] = useState(false);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -92,6 +105,10 @@ const FlatsPage = () => {
     };
     fetchData();
   }, []);
+
+  const handleFormModalClose = () => {
+    setShowFormModal(false);
+  };
 
   return (
     <>
@@ -188,10 +205,17 @@ const FlatsPage = () => {
                       <ButtonText>Kalendorius</ButtonText>
                     </Button>
                   )}
-                  <Button
-                    href="https://flats.lt/kontaktu-forma"
-                    target="_blank"
+                  <RoundedModal
+                    title="Palikite savo duomenys turto savininkui"
+                    visible={showFormModal}
+                    onCancel={handleFormModalClose}
+                    footer={null}
                   >
+                    <PotentialTenantForm
+                      handleFormModalClose={handleFormModalClose}
+                    />
+                  </RoundedModal>
+                  <Button onClick={() => setShowFormModal(true)}>
                     <FaWpforms />
                     <ButtonText>Forma</ButtonText>
                   </Button>
