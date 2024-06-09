@@ -38,7 +38,10 @@ const Map = () => {
         `https://maps.googleapis.com/maps/api/geocode/json?address=${address}&key=${process.env.REACT_APP_GOOGLE_MAPS_API_KEY}`
       );
       const data = await response.json();
-      const { results } = data;
+      const { results, error_message } = data;
+      if (error_message) {
+        console.error('Geocode API error:', error_message);
+      }
       if (results.length > 0) {
         const { lat, lng } = results[0].geometry.location;
         console.log('Latitude:', lat, 'Longitude:', lng);
