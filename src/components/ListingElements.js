@@ -18,7 +18,7 @@ export const AboutFlatSub = styled.div`
   flex-direction: row-reverse;
   justify-content: space-between;
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 550px) {
     flex-direction: column;
     width: 95%;
   }
@@ -131,8 +131,9 @@ export const ImgElements = styled.div`
 export const TextGroup = styled.div`
   padding-top: 1.5rem;
   max-width: 400px;
-  @media screen and (max-width: 480px) {
-    max-width: 82vw;
+  @media screen and (max-width: 550px) {
+    max-width: 97%;
+    align-items: center;
   }
 `;
 
