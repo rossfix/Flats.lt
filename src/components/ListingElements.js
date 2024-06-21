@@ -18,7 +18,7 @@ export const AboutFlatSub = styled.div`
   flex-direction: row-reverse;
   justify-content: space-between;
 
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 480px) {
     flex-direction: column;
     width: 95%;
   }
@@ -44,6 +44,9 @@ export const CustomPreviewGroup = styled(Img.PreviewGroup)`
 export const PreviewGroup = styled.div`
   max-width: 500px;
   width: 100%;
+  @media screen and (max-width: 480px) {
+    width: 95%;
+  }
 `;
 // export const ImgLast = styled.div`
 //   display: none;
@@ -131,9 +134,8 @@ export const ImgElements = styled.div`
 export const TextGroup = styled.div`
   padding-top: 1.5rem;
   max-width: 400px;
-  @media screen and (max-width: 550px) {
-    max-width: 97%;
-    align-items: center;
+  @media screen and (max-width: 480px) {
+    max-width: 95%;
   }
 `;
 
