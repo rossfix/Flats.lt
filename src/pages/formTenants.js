@@ -70,7 +70,12 @@ const PotentialTenantForm = ({ handleFormModalClose }) => {
         uid: uid, // Presuming uid always has a value by this point
       };
 
-      console.log(formData);
+      await fetch(
+        `https://us-central1-flats-af6d2.cloudfunctions.net/potentialTenantTrigger?flatId=${flatId}`,
+        {
+          method: 'GET',
+        }
+      );
       // Adding the potential tenant to the potential_tenants collection
       await addDoc(collection(db, 'potential_tenants'), formData);
       handleFormModalClose();
