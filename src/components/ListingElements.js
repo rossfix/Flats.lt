@@ -78,6 +78,9 @@ export const ImgLarge = styled(Image)`
   border-radius: 15px;
   background-size: cover;
   margin-bottom: 1rem;
+  height: 20rem;
+  object-fit: cover;
+  object-position: center;
 `;
 
 export const ImgSmallContainer = styled.div`
@@ -105,7 +108,8 @@ export const ImgSmallContainer = styled.div`
 export const ImgSmall = styled(Image)`
   border-radius: 15px;
   display: inline-block; /* Display images in a row */
-
+  object-fit: cover;
+  object-position: center;
   margin-right: 10px;
   margin: 0.25rem;
   width: 10rem;
