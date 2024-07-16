@@ -1,20 +1,20 @@
-import { React, useContext } from "react";
-import "./App.css";
-import "antd/dist/antd.min.css";
+import { React, useContext, useEffect } from 'react';
+import './App.css';
+import 'antd/dist/antd.min.css';
 import {
   BrowserRouter as Router,
   Routes,
   Route,
   Navigate,
-} from "react-router-dom";
-import Home from "./pages";
-import ContactPage from "./pages/contacts";
-import ErrorPage from "./pages/error";
-import LoginPage from "./pages/login";
-import AllArticlesPage from "./pages/articles";
-import ArticlePageOne from "./pages/articleone";
-import FlatsPage from "./pages/flats";
-import ManagementLanding from "./pages/management";
+} from 'react-router-dom';
+import Home from './pages';
+import ContactPage from './pages/contacts';
+import ErrorPage from './pages/error';
+import LoginPage from './pages/login';
+import AllArticlesPage from './pages/articles';
+import ArticlePageOne from './pages/articleone';
+import FlatsPage from './pages/flats';
+import ManagementLanding from './pages/management';
 
 import {
   articleOne,
@@ -29,17 +29,28 @@ import {
   articleTen,
   articleEleven,
   articleTwelve,
-} from "./components/ArticleOne/Data";
+} from './components/ArticleOne/Data';
 
 function App() {
+  const RedirectToExternal = () => {
+    useEffect(() => {
+      window.location.href = 'https://savitarna.flats.lt/prisijungti';
+    }, []);
+
+    return null;
+  };
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Home />} exact />
         <Route path="/kontaktu-forma" element={<ContactPage />} exact />
-        <Route path="/prisijungti" element={<LoginPage />} exact />
+        <Route path="/prisijungti" element={<RedirectToExternal />} exact />
         <Route path="/straipsniai" element={<AllArticlesPage />} exact />
-        <Route path="/nuomos-valdymo-platforma" element={<ManagementLanding />} exact />
+        <Route
+          path="/nuomos-valdymo-platforma"
+          element={<ManagementLanding />}
+          exact
+        />
         <Route path="/*" element={<ErrorPage />} exact />
         <Route
           path="/straipsniai/nt-nuomos-patarimai"

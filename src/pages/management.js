@@ -1,17 +1,17 @@
-import React from "react";
-import ScrollToTop from "../components/ScrollToTop";
-import StationarNav from "../components/Navbar/NoNav";
-import Footer from "../components/Footer";
-import { Helmet, HelmetProvider } from "react-helmet-async";
-import { NavBtnLink } from "../components/Navbar/NavbarElements";
-import desktop from "../images/nekilnojamo-turto-valdymo-platforma.png";
-import mobile from "../images/Valdymo-platforma.png";
+import React from 'react';
+import ScrollToTop from '../components/ScrollToTop';
+import StationarNav from '../components/Navbar/NoNav';
+import Footer from '../components/Footer';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
+import { NavBtnLink } from '../components/Navbar/NavbarElements';
+import desktop from '../images/nekilnojamo-turto-valdymo-platforma.png';
+import mobile from '../images/Valdymo-platforma.png';
 
 import {
   ArticleHeader,
   ArticleParagraph,
   ButtonCont,
-} from "../components/ArticleOne/ArticleOneElements";
+} from '../components/ArticleOne/ArticleOneElements';
 import {
   HeroContainerLanding,
   HeroContentLanding,
@@ -35,7 +35,7 @@ import {
   PriceFeatures,
   ContactStyle,
   ImageDesk,
-} from "../components/GlobalStyles";
+} from '../components/GlobalStyles';
 
 const ManagementLanding = () => {
   return (
@@ -65,7 +65,7 @@ const ManagementLanding = () => {
               valdyti nekilnojamą turtą efektyviau nei bet kada anksčiau.
             </HeroP>
             <ButtonCont>
-              <NavBtnLink to="/kontaktu-forma">Gauti pasiūlymą</NavBtnLink>
+              <NavBtnLink to="/prisijungti">Prisijungti</NavBtnLink>
             </ButtonCont>
           </HeroContentSubLanding>
           <div>
