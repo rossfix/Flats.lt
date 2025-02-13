@@ -15,6 +15,7 @@ import AllArticlesPage from './pages/articles';
 import ArticlePageOne from './pages/articleone';
 import FlatsPage from './pages/flats';
 import ManagementLanding from './pages/management';
+import PrivacyPolicyPage from './pages/privacyPolicy';
 
 import {
   articleOne,
@@ -46,6 +47,11 @@ function App() {
         <Route path="/kontaktu-forma" element={<ContactPage />} exact />
         <Route path="/prisijungti" element={<RedirectToExternal />} exact />
         <Route path="/straipsniai" element={<AllArticlesPage />} exact />
+        <Route
+          path="/privatumo-politika"
+          element={<PrivacyPolicyPage />}
+          exact
+        />
         <Route
           path="/nuomos-valdymo-platforma"
           element={<ManagementLanding />}

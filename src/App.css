@@ -2,15 +2,12 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Montserrat", sans-serif;
-
+  font-family: 'Montserrat', sans-serif;
 }
-
 
 .ant-row {
   display: block !important;
 }
-
 
 .ant-image-mask {
   border-radius: 15px;
@@ -24,11 +21,46 @@
 .ImgLarge {
   width: 93% !important;
   margin-top: 1rem !important;
-
 }
 
 .ImgSmall {
   width: 5.8rem !important;
-  height: 75px !important;  
+  height: 75px !important;
 }
 
+/* Common Styles */
+.privacy-policy-container {
+  padding-top: 80px; /* Adds space from the top to account for header */
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  padding: 20px; /* Optional: padding for the content */
+}
+
+h1 {
+  font-size: 2.5rem; /* Adjust this to your needs */
+  color: #333;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* Optional: If you want to add specific styles for links, buttons, etc. */
+a {
+  color: #007bff; /* Link color */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  padding-top: 40px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #333;
+}
